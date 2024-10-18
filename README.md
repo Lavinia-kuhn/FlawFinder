@@ -18,19 +18,21 @@ práticas de QA.
 
 # O que Está Dentro do Escopo
 1. Análise de Dados de Testes
+   
 ○ Coleta e Processamento de Dados: Captura e análise de dados históricos
 de testes resultados de testes
+
 ○ Detecção de Padrões: Identificação de padrões e correlações nos dados de
 teste que indicam motivos para a não detecção de defeitos.
 
-2. Identificação de Causas
+3. Identificação de Causas
 ○ Motivos Comuns: Determinação dos motivos mais frequentes para defeitos
 não serem detectados, como cobertura inadequada, dados insuficientes ou
 problemas de configuração.
 ○ Análise de Padrões: Reconhecimento de padrões associados à falha na
 detecção de defeitos em casos de teste específicos.
 
-3. Geração de Insights e Recomendações
+4. Geração de Insights e Recomendações
 ○ Relatórios Detalhados: Criação de relatórios que descrevem as causas da
 não detecção e fornecem predições, auxiliando na percepção antecipada de
 problemas que são mais prováveis de não serem detectados durante os
@@ -38,13 +40,13 @@ testes, permitindo que a equipe de QA foque mais nessas áreas.
 ○ Sugestões para Melhoria: Propostas de ajustes nas práticas de QA
 baseadas nos insights obtidos.
 
-4. Integração com Ferramentas de QA Existentes
+5. Integração com Ferramentas de QA Existentes
 ○ Compatibilidade e Integração: Desenvolvimento da ferramenta para se
 integrar com sistemas e ferramentas de QA já utilizados pela equipe.
 ○ Insights em Tempo Real: Implementação de funcionalidades para fornecer
 insights e recomendações durante ou após o processo de teste.
 
-5. Desenvolvimento da Interface de Usuário
+6. Desenvolvimento da Interface de Usuário
 ○ Dashboard: Design e implementação de um painel de controle para
 visualização de dados e insights.
 ○ Facilidade de Uso: Criação de uma interface intuitiva e fácil de usar para
