@@ -2,9 +2,12 @@
 
 # Capa
 Título do Projeto: Flaw Finder
+
 Resumo: Uso de IA para a identificação dos motivos de não detecção de
 defeitos em testes de QA
+
 Aluna: Lavínia Vitória Kuhn
+
 Curso: Engenharia de Software.
 
 # Objetivo Principal
