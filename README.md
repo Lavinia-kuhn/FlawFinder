@@ -95,18 +95,23 @@ maneira eficaz.
 RF001 - O sistema deve ser capaz de coletar informações vindas do Jira, utilizando
 APIs seguras e permitir a configuração de parâmetros de coleta, como
 projetos específicos e tipos de issues.
+
 RF002 - O sistema deve ser capaz de realizar análise preditiva, tendo como base o
 histórico de bugs abertos para identificação de motivos deles terem passado
 pelo fluxo de QA sem serem identificados. A análise preditiva deve usar
 técnicas de aprendizado de máquina para identificar padrões e correlações, e
 deve ser atualizável com novos dados de bugs e testes.
+
 RF003 - O sistema deve gerar relatórios e Dashboard apresentando as análises
 realizadas
+
 RF004 - O sistema deve permitir exportar esses relatórios e dashboards no formato
 PDF , apenas para consulta.
 RF005 - O sistema deve gerar insights a cada fechamento de sprint
+
 RF006 - O sistema deve gerar indicadores de aumento de motivos de Bugs sem
 validação pelo fluxo de QA
+
 RF007 - O sistema deve permitir com que o usuário gere dashboards customizados. A
 personalização deve incluir a capacidade de adicionar e remover widgets.
 
@@ -115,13 +120,18 @@ RNF001 - A escalabilidade do sistema deve suportar o tamanho dos projetos do Jir
 Neste caso, deve ser capaz de processar grandes volumes de dados sem
 degradação significativa de desempenho e suportar a expansão para novos
 projetos e equipes.
+
 RNF002 - O sistema deve garantir a abertura dos relatórios com no mínimo 5
 segundos de espera
+
 RNF003 - O sistema deve permitir consultas de até 6 sprints anteriores
+
 RNF004 - O sistema deve possuir uma interface fácil e ágil para coleta das
 informações, incluindo uma navegação intuitiva com feedbacks claros sobre
 o progresso da coleta de dados.
+
 RNF005 - Deverá ter disponibilidade de no mínimo 20 horas por dia
+
 RNF006 - O sistema deve garantir a integridade dos dados gerados a partir das issues
 do Jira, aplicando medidas de segurança para proteger os dados contra
 corrupção e garantir que sejam consistentemente sincronizados com o Jira
