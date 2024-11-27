@@ -1,0 +1,21 @@
+# Ignorar arquivos de build do .NET
+
+bin/
+
+obj/
+ 
+# Ignorar node_modules do Angular
+
+Frontend/node_modules/
+ 
+# Ignorar arquivos gerados pelo Python
+
+*.pyc
+
+__pycache__/
+ 
+# Ignorar arquivos específicos da IDE (VSCode, etc.)
+
+.vscode/
+
+ 

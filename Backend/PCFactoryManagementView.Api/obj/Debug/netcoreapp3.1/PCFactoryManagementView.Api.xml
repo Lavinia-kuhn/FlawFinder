@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PCFactoryManagementView.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.HomeController">
+            <summary>
+            Endpoints da Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.Get(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.GuidGen(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a geracao do Guid
+            </summary>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.MenuController">
+            <summary>
+            Endpoints do Menu
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MenuController.GetMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMenuHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar o Menu de acordo com o usuario
+            </summary>
+            <param name="idUser">Id du usuario</param>
+            <param name="_handler">Manipulador do Menu</param>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ReportController">
+            <summary>
+            Endpoints de Report
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.Report(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar report pelo codigo
+            </summary>
+            <param name="reportCode">Codigo do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController">
+            <summary>
+            Endpoints das Turmas de Turno
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar lista com id e nome da Turma de Turno onde FlgEnable é igual a 1
+            </summary>
+            <param name="_context">Contexto</param>
+            <param name="_log">Log</param>
+            <response code="200">Sucesso em buscar as Turmas de Turno</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.TranslationController">
+            <summary>
+            Endpoint para traducao
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.TranslationController.GetTranslationsByLang(System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.ITranslationHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a ligua para traducao
+            </summary>
+            <param name="lang">Linguagem</param>
+            <param name="_handler">Manipulador da traducao</param>
+            <param name="_log">Log</param>
+            <response code="200">Traducao pela linguagem escolhida</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.Controllers.UserController">
+            <summary>
+            Endpoints relacionados a usuario
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Login(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.LoginCommand,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IUserHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Logar com usuario
+            </summary>
+            <param name="login">Comando de login do usuario</param>
+            <param name="_handler">Manipulador do Usuario</param>
+            <param name="_log">Gerenciador de historico</param>
+            <response code="200">Usuario logado</response>
+            <response code="400">Usuario ou senha invalidos</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar usuario da tabela TBLUser onde FlgEnable seja igual a 1
+            </summary>
+            <param name="_context">Contexto</param>
+            <response code="200">Retorna a lista dos usuarios</response>
+            <response code="400">Lista de usuarios nao encotradas</response>
+        </member>
+    </members>
+</doc>
