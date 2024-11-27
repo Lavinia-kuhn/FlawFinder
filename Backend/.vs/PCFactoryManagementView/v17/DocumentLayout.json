@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|solutionrelative:pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\reporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|solutionrelative:pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\reporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111F469D-EFB8-4FDE-98C7-F4E44A073E5C}|PCFactoryManagementView.Infra\\PCFactoryManagementView.Infra.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.infra\\pcfactorycontext\\commonrepositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111F469D-EFB8-4FDE-98C7-F4E44A073E5C}|PCFactoryManagementView.Infra\\PCFactoryManagementView.Infra.csproj|solutionrelative:pcfactorymanagementview.infra\\pcfactorycontext\\commonrepositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.api\\commoncontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|solutionrelative:pcfactorymanagementview.api\\commoncontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|solutionrelative:pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111F469D-EFB8-4FDE-98C7-F4E44A073E5C}|PCFactoryManagementView.Infra\\PCFactoryManagementView.Infra.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.infra\\pcfactorycontext\\commonrepositories\\issuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111F469D-EFB8-4FDE-98C7-F4E44A073E5C}|PCFactoryManagementView.Infra\\PCFactoryManagementView.Infra.csproj|solutionrelative:pcfactorymanagementview.infra\\pcfactorycontext\\commonrepositories\\issuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAmwGkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IssueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportHandler.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

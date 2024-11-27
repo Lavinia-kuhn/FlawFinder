@@ -1,0 +1,622 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PCFactoryManagementView.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController">
+            <summary>
+            Endpoints genericos do Ferramental Avancado 
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTooling(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os Ferramentais Avancados
+            </summary>
+            <param name="_handler">Manipulador do Ferramental Avancado</param>
+            <response code="200">Sucesso ao buscar os ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTGrp(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os grupos de Ferramental Avancado
+            </summary>
+            <param name="_handler">Manipulador do Ferramental Avancado</param>
+            <response code="200">Sucesso ao buscar os grupos de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTType(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os tipos de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os tipos de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTKit(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os tipos de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os tipos de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTWarehouse(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os armazens de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os armazens de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTAddress(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os tipos de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os tipos de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTAddressType(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os enderecos de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os enderecos de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTMaintType(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os tipos principais de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os tipos principais de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTStatus(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os status de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os status de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTEvType(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os tipos de eventos do Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200"></response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTBreakReason(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todas as razoes de quebra de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar as razoes de quebra de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTBreakReasonGrp(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os status de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar os status de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTAddressTypeClassification(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos as classificacoes do tipo de endereço de  de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar as classificacoes do tipo de endereço de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTStatusClassification(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos as Classificacoes de status de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar as Classificacoes de status de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTMaintTypeClassification(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos as Classificacoes de tipos principais de Ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200">Sucesso ao buscar as Classificacoes de tipos principais de ferramentais</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.AdvTControllers.AdvToolingController.GetAllAdvTEvTypeClassification(PCFactoryManagementView.Domain.PcfactoryContext.AdvT.Handlers.IAdvToolingHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todas as classificacoes de tipos de eventos do ferramental
+            </summary>
+            <param name="_handler">Manipulador do Ferramental</param>
+            <response code="200"></response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.AlarmInfoController">
+            <summary>
+            Endpoints de Alarmes
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.AlarmInfoController.GetAllAlarms(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.AlarmInfoData,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAlarmsInfoHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os alarmes do Usuario e do Recurso
+            </summary>
+            <param name="data">Dados do localStorage do front-end, idResource e idUser</param>
+            <param name="_handler">Manipulador dos alarmes</param>
+            <response code="200">Retorna todos os alarmes relacionados aquele recurso e usuario</response>
+            
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.DashboardController">
+            <summary>
+            Endpoints de dashboard
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.GetDashboardsByIdUser(System.Int32,System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards pelo usuario
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Retorna as dashboards do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.GetDashboardViewFilters(System.Int32,System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar os filtros topo do dashboard pelo id do usuário e pela view name
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="viewName">Nome da visão atual do dashboard</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Retorna as dashboards do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.PutDashboardsByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Atualiza as dashboards pelo usuario
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Atualiza o Dashboard dos usuários na primeira vez</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.PutDashboardView(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.DashboardViewObject,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Atualiza as dashboards pelo usuario
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Atualiza o Dashboard dos usuários na primeira vez</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.GetDashboardViews(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Retorna todas as visões do usuário
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Retorna todas as visões do usuário</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.DeleteDashboardView(System.Int32,System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deleta a visão do usuário
+            </summary>
+            <param name="id">Id do Usuario</param>
+            /// <param name="idDashboard">Id do Dashboard</param>
+            <param name="_handler">Manipulador da Dashboard</param>
+            <response code="200">Deleta a visão do usuário</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.Get(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards
+            </summary>
+            <param name="_handler">Manipulador da dashboard</param>
+            /// <response code="200">Retorna as dashboards</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.DashboardController.DeletePreference(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.CardDeleteDuplicate,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deletar as preferencias
+            </summary>
+            <param name="_cardDeleteDuplicate"></param>
+            <param name="_handler">Manipulador do report</param>
+            <param name="_log"></param>
+            <response code="200">Sucesso em deletar a preferencia</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.HomeController">
+            <summary>
+            Endpoints da Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.Get(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.GuidGen(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a geracao do Guid
+            </summary>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.MapsController">
+            <summary>
+            Endpoints dos mapas
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetResourceMapsByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetResourceMapDetByIdMapHD(System.Int32,System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar imagem e nome do mapa pelo mapa e usuário
+            </summary>
+            <param name="idMapHD">ID do mapa</param>
+            <param name="idUser">ID do usuário</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetQualityMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMovMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetResourcesByMap(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os recursos com alarmes do mapa
+            </summary>
+            <param name="idMapHD">ID do mapa</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMapsDetails(System.Int32,System.Nullable{System.Int32},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os recursos com alarmes do mapa
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="idMapHD">ID do mapa</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMovMapsDetails(System.Int32,System.Nullable{System.Int32},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os recursos com alarmes do mapa
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="idMapHD">ID do mapa</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMapsTooltip(System.Nullable{System.Int32},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as informaçoes para apresentação no tooltip
+            </summary>
+            <param name="idUser">ID do recurso</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.UpdateMapsDetails(System.Collections.Generic.List{PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.MapsDetails},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os recursos com alarmes do mapa
+            </summary>
+            <param name="idUser">ID do usuario</param>
+            <param name="idMapHD">ID do mapa</param>
+            <param name="_resources">ID do resource</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMapImage(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idMapHD">ID do Mapa</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MapsController.GetMovMapImage(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMapsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os mapas pelo usuario
+            </summary>
+            <param name="idMapHD">ID do Mapa</param>
+            <param name="_handler">Manipulador dos mapas</param>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.MenuController">
+            <summary>
+            Endpoints do Menu
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.MenuController.GetMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMenuHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar o Menu de acordo com o usuario
+            </summary>
+            <param name="idUser">Id du usuario</param>
+            <param name="_handler">Manipulador do Menu</param>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ProductionDetailController">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ReportController">
+            <summary>
+            Endpoints de Report
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.Report(System.Int32,System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar report pelo codigo
+            </summary>
+            <param name="reportCode">Codigo do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.SavePreference(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.ReportPreferences,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Salvar as preferencias de report
+            </summary>
+            <param name="_preferences">Preferencias do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.DeletePreference(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.ReportDelete,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deletar as preferencias
+            </summary>q
+            <param name="_reportDelete"></param>
+            <param name="_handler">Manipulador do report</param>
+            <param name="_log"></param>
+            <response code="200">Sucesso em deletar a preferencia</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.SavePreferenceCard(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.ReportPreferencesCard,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Salvar as preferencias de report
+            </summary>
+            <param name="_preferences">Preferencias do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.GetPreferenceCard(PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.ReportPreferencesCard,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Salvar as preferencias de report
+            </summary>
+            <param name="_preferences">Preferencias do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.DeletePreferenceCard(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deletar as preferencias
+            </summary>
+            <param name="_idPref">ID da preferencia</param>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em deletar a preferencia</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.GetCodOrdem(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar Cod. Ordem de report
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.GetUserGroups(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar grupo de usuários
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.GetUserGroupsByPref(System.Int32,System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar grupo de usuários
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <response code="200">Sucesso em salvar as preferencias</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController">
+            <summary>
+            Endpoints das Turmas de Turno
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar lista com id e nome da Turma de Turno onde FlgEnable é igual a 1
+            </summary>
+            <param name="_context">Contexto</param>
+            <param name="_log">Log</param>
+            <response code="200">Sucesso em buscar as Turmas de Turno</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.TranslationController">
+            <summary>
+            Endpoint para traducao
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.TranslationController.GetTranslationsByLang(System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.ITranslationHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a ligua para traducao
+            </summary>
+            <param name="lang">Linguagem</param>
+            <param name="_handler">Manipulador da traducao</param>
+            <param name="_log">Log</param>
+            <response code="200">Traducao pela linguagem escolhida</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.TreeViewController">
+            <summary>
+            Endpoints das TreeViews
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.TreeViewController.TreeView(System.DateTime,System.DateTime,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.ITreeViewHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a Hierarquia da TreeView
+            </summary>
+            <param name="dtStart">Inicio da Hierarquia</param>
+            <param name="dtEnd">Fim da Hierarquia</param>
+            <param name="_handler">Manipulador da TreeView</param>
+            <response code="200">Retorna a TreeView</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.TreeViewOMController">
+            <summary>
+            Endpoints das TreeViews
+            </summary>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.Controllers.UserController">
+            <summary>
+            Endpoints relacionados a usuario
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Login(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.LoginCommand,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IUserHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Logar com usuario
+            </summary>
+            <param name="login">Comando de login do usuario</param>
+            <param name="_handler">Manipulador do Usuario</param>
+            <param name="_log">Gerenciador de historico</param>
+            <response code="200">Usuario logado</response>
+            <response code="400">Usuario ou senha invalidos</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar usuario da tabela TBLUser onde FlgEnable seja igual a 1
+            </summary>
+            <param name="_context">Contexto</param>
+            <response code="200">Retorna a lista dos usuarios</response>
+            <response code="400">Lista de usuarios nao encotradas</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.SetPreferences(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.PreferencesCommand,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar as preferencias do usuario de acordo com seu id
+            </summary>
+            <param name="preferences">Comandos da preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Seta as preferencias do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.UpdatePreference(PCFactoryManagementView.Domain.PcfactoryContext.Common.Queries.UserPreferences,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar as preferencias do usuario de acordo com seu id
+            </summary>
+            <param name="preference">Preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Seta as preferencias do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.DeletePreference(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deletar a preferencia do usuario pelo id da mesma
+            </summary>
+            <param name="idPref">id da preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Deleta preferencia</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.SetCardPreferences(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.CardPreferenceCommand,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar as preferencias de Cards do usuario de acordo com seu id
+            </summary>
+            <param name="preference">Comandos da preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Seta as preferencias do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.SetCardsPreferences(System.Collections.Generic.List{PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.CardPreferenceCommand},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar as preferencias da Lista de Cards informados do usuario.
+            </summary>
+            <param name="preferences">Comandos da preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Seta as preferencias do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.SetGridsterPreferences(System.Collections.Generic.List{PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.GridsterPreferenceCommand},PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IPreferencesHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar as preferencias da Lista de Cards informados do usuario.
+            </summary>
+            <param name="preferences">Comandos da preferencia</param>
+            <param name="_prefsHandler">Manipulador da preferencia</param>
+            <response code="200">Seta as preferencias do usuario</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.GetAndonByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards pelo usuario
+            </summary>
+            <param name="id">Id do Usuario</param>
+            <param name="_handler">Manipulador Andon</param>
+            <response code="200">Retorna a table do Andon</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.GetAndonByCode(System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards pelo usuario
+            </summary>
+            <param name="code">code andon</param>
+            <param name="_handler">Manipulador Andon</param>
+            <response code="200">Retorna a table do Andon</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.GetShifDateByMap(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards pelo usuario
+            </summary>
+            <param name="map">map do Usuario</param>
+            <param name="_handler">Manipulador Andon</param>
+            <response code="200">Retorna a table do Andon</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.GetAndonGuid(System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar as dashboards pelo usuario
+            </summary>
+            <param name="guid">guid andon</param>
+            <param name="_handler">Manipulador Andon</param>
+            <response code="200">Retorna a table do Andon</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.SetTimersAndonHD(PCFactoryManagementView.Domain.PcfactoryContext.Common.Queries.TimersAndonHDDTO,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Andon
+            </summary>
+            <param name="_andonHD">Andon</param>
+            <param name="_handler">Andon</param>
+            <response code="200">Sucesso em salvarAndon</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.AndonController.DeleteAndon(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IAndonHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Deletar Andon
+            </summary>
+            <param name="idAndonHD">id do Andon</param>
+            <param name="_handler">Manipulador do andon</param>
+            <response code="200">Sucesso ao deletar Andon</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.OeeControllers.OeeDashboardController">
+            <summary>
+            Endpoints genericos da Dashboard de OEE
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.OeeDashboardController.GetGantt(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.Inputs.DashboardFiltersCommand,PCFactoryManagementView.Domain.PcfactoryContext.Oee.Handlers.IOeeDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar o Gantt
+            </summary>
+            <param name="_filters">Filtro dos comandos</param>
+            <param name="_handler">Manipulador da Dashboard de OEE</param>
+            <param name="_log">log</param>
+            <response code="200"></response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.OeeDashboardController.GetTrends(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.FiltersCommand,PCFactoryManagementView.Domain.PcfactoryContext.Oee.Handlers.IOeeDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar o GetTrends
+            </summary>
+            <param name="_filters">Filtro dos comandos</param>
+            <param name="_handler">Manipulador da Dashboard de OEE</param>
+            <param name="_log">log</param>
+            <response code="200"></response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.OeeDashboardController.UpdateFilterOptions(System.Collections.Generic.List{PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities.FilterRow},PCFactoryManagementView.Domain.PcfactoryContext.Oee.Handlers.IOeeDashboardHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Setar o GetTrends
+            </summary>
+            <param name="_filters">Filtro dos comandos</param>
+            <param name="_handler">Manipulador da Dashboard de OEE</param>
+            <param name="_log">log</param>
+            <response code="200"></response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.OeeControllers.OeeIndicatorsController">
+            <summary>
+            Endpoints de Indicatores do OEE
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.OeeControllers.OeeIndicatorsController.GetIndicatorsByIdResource(System.Int32,System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Oee.Handlers.IOeeIndicatorsHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar os indicatores pelo recurso
+            </summary>
+            <param name="idResource">ID do Recurso</param>
+            <param name="idUser">ID do usuario</param>
+            <param name="_handler">Manipulador do Indicador de OEE</param>
+            <param name="_log">Log</param>
+            <response code="200">Busca o Indicador pelo Usuario e pelo Recurso</response>
+        </member>
+    </members>
+</doc>
