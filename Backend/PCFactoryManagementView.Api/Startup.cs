@@ -179,7 +179,7 @@ namespace PCFactoryManagementView.Api
             //Habilito sistema de Autorização
             app.UseAuthorization();
 
-            app.UseMiddleware<JwtMiddleware>();
+            //app.UseMiddleware<JwtMiddleware>();
 
             //Aqui habilito o controle de nomeação simplificado dos endpoints com base em rotas definidas nos controllers.
             app.UseEndpoints(endpoints => {

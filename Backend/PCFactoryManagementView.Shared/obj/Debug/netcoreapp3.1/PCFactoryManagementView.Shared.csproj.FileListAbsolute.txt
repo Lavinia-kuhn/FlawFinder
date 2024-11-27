@@ -28,3 +28,14 @@ C:\Users\laviniavk\OneDrive - PPI-Multitask\Documentos\Lavínia Kuhn\Faculdade\T
 C:\Users\laviniavk\OneDrive - PPI-Multitask\Documentos\Lavínia Kuhn\Faculdade\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.csproj.CoreCompileInputs.cache
 C:\Users\laviniavk\OneDrive - PPI-Multitask\Documentos\Lavínia Kuhn\Faculdade\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.dll
 C:\Users\laviniavk\OneDrive - PPI-Multitask\Documentos\Lavínia Kuhn\Faculdade\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.pdb
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\bin\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.deps.json
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\bin\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.dll
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\bin\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.pdb
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.csproj.AssemblyReference.cache
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.AssemblyInfoInputs.cache
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.AssemblyInfo.cs
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.csproj.CoreCompileInputs.cache
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.sourcelink.json
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.dll
+C:\Users\laviniavk\source\TCC\Backend\PCFactoryManagementView.Shared\obj\Debug\netcoreapp3.1\PCFactoryManagementView.Shared.pdb

@@ -3,12 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|solutionrelative:pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a37bc14e6f56a47984cee0d983ab00884e3e4cadc9ef6a4abebeb84fbb58100c\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\reporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27517A72-C4DE-4106-9918-F830BE3EC5A9}|PCFactoryManagementView.Domain\\PCFactoryManagementView.Domain.csproj|solutionrelative:pcfactorymanagementview.domain\\pcfactorycontext\\common\\handlers\\reporthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|solutionrelative:pcfactorymanagementview.api\\commoncontrollers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8FEA3D-71A6-41B7-9F0A-40FB99D34ECC}|PCFactoryManagementView.Api\\PCFactoryManagementView.Api.csproj|solutionrelative:pcfactorymanagementview.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{111F469D-EFB8-4FDE-98C7-F4E44A073E5C}|PCFactoryManagementView.Infra\\PCFactoryManagementView.Infra.csproj|c:\\users\\laviniavk\\source\\tcc\\backend\\pcfactorymanagementview.infra\\pcfactorycontext\\commonrepositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +44,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,32 +120,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs [Read Only]",
+              "ViewState": "AQIAAHYBAAAAAAAAAIAwwH8BAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:06:44.478Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
               "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
               "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
               "RelativeToolTip": "PCFactoryManagementView.Api\\CommonControllers\\ReportController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAARAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:23:09.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
-              "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
-              "RelativeToolTip": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAmwGkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:23:09.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserHandler.cs",
               "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
               "RelativeDocumentMoniker": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\UserHandler.cs",
@@ -147,7 +158,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ReportHandler.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:23:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a37bc14e6f56a47984cee0d983ab00884e3e4cadc9ef6a4abebeb84fbb58100c\\ResourceInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a37bc14e6f56a47984cee0d983ab00884e3e4cadc9ef6a4abebeb84fbb58100c\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a37bc14e6f56a47984cee0d983ab00884e3e4cadc9ef6a4abebeb84fbb58100c\\ResourceInvoker.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a37bc14e6f56a47984cee0d983ab00884e3e4cadc9ef6a4abebeb84fbb58100c\\ResourceInvoker.cs [Read Only]",
+              "ViewState": "AQIAABEDAAAAAAAAAAAwwCIDAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:07:24.764Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\Startup.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Api\\Startup.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAArwLUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:05:24.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IssueRepository.cs",
               "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
               "RelativeDocumentMoniker": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\IssueRepository.cs",
@@ -159,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ReportRepository.cs",
               "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
               "RelativeDocumentMoniker": "PCFactoryManagementView.Infra\\PcfactoryContext\\CommonRepositories\\ReportRepository.cs",
@@ -171,15 +221,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportHandler.cs",
-              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
-              "RelativeDocumentMoniker": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
-              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
-              "RelativeToolTip": "PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBEAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\laviniavk\\source\\TCC\\Backend\\PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "RelativeToolTip": "PCFactoryManagementView.Api\\CommonControllers\\UserController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAmwGkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:23:09.698Z"
+              "WhenOpened": "2024-11-27T17:23:09.66Z"
             }
           ]
         }

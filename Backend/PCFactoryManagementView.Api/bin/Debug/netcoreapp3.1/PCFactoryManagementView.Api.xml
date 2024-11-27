@@ -19,17 +19,37 @@
             Buscar a geracao do Guid
             </summary>
         </member>
-        <member name="T:PCFactoryManagementView.Api.CommonControllers.MenuController">
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.IssueController">
             <summary>
-            Endpoints do Menu
+            Endpoints de Report
             </summary>
         </member>
-        <member name="M:PCFactoryManagementView.Api.CommonControllers.MenuController.GetMenusByIdUser(System.Int32,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IMenuHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Pareto(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
             <summary>
-            Buscar o Menu de acordo com o usuario
+            Buscar Pareto de Motivos
             </summary>
-            <param name="idUser">Id du usuario</param>
-            <param name="_handler">Manipulador do Menu</param>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Line(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar crescimento de motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Pie(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
         </member>
         <member name="T:PCFactoryManagementView.Api.CommonControllers.ReportController">
             <summary>
@@ -45,33 +65,6 @@
             <returns>Retorna os reports com aquele codigo</returns>
             <response code="200">Sucesso ao buscar o report</response>
             <response code="400">Nao ha reports com este codigo</response>
-        </member>
-        <member name="T:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController">
-            <summary>
-            Endpoints das Turmas de Turno
-            </summary>
-        </member>
-        <member name="M:PCFactoryManagementView.Api.CommonControllers.ShiftTeamController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
-            <summary>
-            Buscar lista com id e nome da Turma de Turno onde FlgEnable é igual a 1
-            </summary>
-            <param name="_context">Contexto</param>
-            <param name="_log">Log</param>
-            <response code="200">Sucesso em buscar as Turmas de Turno</response>
-        </member>
-        <member name="T:PCFactoryManagementView.Api.CommonControllers.TranslationController">
-            <summary>
-            Endpoint para traducao
-            </summary>
-        </member>
-        <member name="M:PCFactoryManagementView.Api.CommonControllers.TranslationController.GetTranslationsByLang(System.String,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.ITranslationHandler,PCFactoryManagementView.Shared.ILoggerManager)">
-            <summary>
-            Buscar a ligua para traducao
-            </summary>
-            <param name="lang">Linguagem</param>
-            <param name="_handler">Manipulador da traducao</param>
-            <param name="_log">Log</param>
-            <response code="200">Traducao pela linguagem escolhida</response>
         </member>
         <member name="T:PCFactoryManagementView.Api.Controllers.UserController">
             <summary>

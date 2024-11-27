@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCFactoryManagementView.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8bd5ad63129b0d7870d446bddece9bed70fefce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a78535618d4cfc551f147fbaa608313f865ee07f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCFactoryManagementView.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCFactoryManagementView.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

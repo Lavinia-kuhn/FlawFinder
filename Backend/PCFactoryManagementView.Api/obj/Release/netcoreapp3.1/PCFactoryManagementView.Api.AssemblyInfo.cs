@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCFactoryManagementView.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a78535618d4cfc551f147fbaa608313f865ee07f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCFactoryManagementView.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCFactoryManagementView.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

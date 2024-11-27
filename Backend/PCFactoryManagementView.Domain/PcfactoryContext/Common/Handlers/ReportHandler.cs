@@ -22,7 +22,6 @@ namespace PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers
 
         public List<ReportQueryResult> GetReport()
         {
-            _log.LogInformation("RouteHandler: GetAllRoute");
             return _repository.GetReport();
         }
 
