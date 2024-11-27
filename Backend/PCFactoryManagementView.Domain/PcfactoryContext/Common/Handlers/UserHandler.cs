@@ -30,19 +30,16 @@ namespace PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers
     public class UserHandler : IUserHandler
     {
         private readonly IUserRepository _userRepository;
-        private readonly IParamsRepository __paramsRepository;
         private readonly IMemoryCache _memoryCache;
         private const string tKey = "mv_users";
         private ILoggerManager _log;
 
         public UserHandler(IUserRepository userRepository, 
-            IParamsRepository paramsRepository,
             ILoggerManager log,
             IMemoryCache memoryCache)
         {
             _memoryCache = memoryCache;
             _userRepository = userRepository;
-            __paramsRepository = paramsRepository;
             _log = log;
         }
 
@@ -106,11 +103,9 @@ namespace PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers
             if (user != null)
             {
                 var prefs = new List<UserPreferences>();
-                var defaultUsers = __paramsRepository.GetDefaultUsersParams();
-                var userIsDefault = defaultUsers.Find(x => x.ParamValue == user.IdUser.ToString());
                 var adLoginType = _userRepository.AdLoginType();
 
-                if (adLoginType == "1" || userIsDefault != null)
+                if (adLoginType == "1")
                 {
                     //SE FOR USUÁRIO PADRÃO DO SISTEMA LOGA COM USUÁRIO E SENHA FORA DO AD
                     var password = Settings.Decrypt(user.Password);

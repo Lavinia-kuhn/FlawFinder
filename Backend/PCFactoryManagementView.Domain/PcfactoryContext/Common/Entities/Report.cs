@@ -18,7 +18,6 @@ namespace PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities
     {
         public string pillar { get; set; }
         public string apiUrl { get; set; }
-        public List<FilterRow> filterRow { get; set; }
         public string preferences { get; set; }
         public string detFilterPreferences { get; set; }
         public string chartPreference { get; set; }

@@ -10,9 +10,9 @@ namespace PCFactoryManagementView.Domain.PcfactoryContext.Common.Repositories
     public interface IIssueRepository
     {
 
-        object GetNoDetectionCausePareto();
-        string GetGreaterNoDetectionCause();
-        object GetNoDetectionByDate();
+        List<DualAxes> GetNoDetectionCausePareto();
+        List<Line> GetNoDetectionIncrease();
+        List<Pie> GetAllNoDetection();
 
 
     }

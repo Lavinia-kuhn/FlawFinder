@@ -1,8 +1,10 @@
 ﻿using Dapper;
+using PCFactoryManagementView.Domain.PcfactoryContext.Common.Entities;
 using PCFactoryManagementView.Domain.PcfactoryContext.Common.Queries;
 using PCFactoryManagementView.Domain.PcfactoryContext.Common.Repositories;
 using PCFactoryManagementView.Infra.PcfactoryContext.DataContext;
 using PCFactoryManagementView.Shared;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PCFactoryManagementView.Infra.PcfactoryContext.CommonRepositories
@@ -21,61 +23,49 @@ namespace PCFactoryManagementView.Infra.PcfactoryContext.CommonRepositories
             _context = Context;
         }
 
-        public string GetGreaterNoDetectionCause()
+
+        public List<DualAxes> GetNoDetectionCausePareto()
+        {
+            var qry = @$"
+
+SELECT 
+	N.Code + '-' + N.Name AS grouper
+	,COUNT(*) count
+FROM TblBugNoDetectionCause BN
+INNER JOIN TblNoDetectionCause N ON N.idNoDetectionCause = BN.idNoDetectionCause
+GROUP BY N.Code, N.Name
+ORDER BY count Desc
+";
+            return _context.Connection.Query<DualAxes>(qry).ToList();
+        }
+
+        public List<Line> GetNoDetectionIncrease()
         {
             var qry = @$"
 SELECT 
-    TND.Code AS NoDetectionCode,
-    COUNT(TBNC.idNoDetectionCause) AS OccurrenceCount
-FROM 
-    TblNoDetectionCause TND
-LEFT JOIN 
-    TblBugNoDetectionCause TBNC ON TND.idNoDetectionCause = TBNC.idNoDetectionCause
-GROUP BY 
-    TND.Code
-ORDER BY 
-    OccurrenceCount DESC
-LIMIT 1;
+	BN.Date as grouper
+	,COUNT(*) value
+FROM TblBugNoDetectionCause BN
+INNER JOIN TblNoDetectionCause N ON N.idNoDetectionCause = BN.idNoDetectionCause
+GROUP BY BN.Date
+ORDER BY BN.Date ASC
 ";
-            return _context.Connection.Query<string>(qry).FirstOrDefault();
+            return _context.Connection.Query<Line>(qry).ToList();
         }
 
-        public object GetNoDetectionByDate()
+
+        public List<Pie> GetAllNoDetection()
         {
-            var qry = @$"
+            var qry = $@"
 SELECT 
-    Date,
-    COUNT(*) AS NoDetectionCount
-FROM 
-    TblNoDetectionCause
-GROUP BY 
-    Date
-ORDER BY 
-    Date ASC;
+	N.Code + '-' + N.Name AS type
+	,COUNT(*) value
+FROM TblBugNoDetectionCause BN
+INNER JOIN TblNoDetectionCause N ON N.idNoDetectionCause = BN.idNoDetectionCause
+GROUP BY N.Code, N.Name
+ORDER BY value Desc
 ";
-
-            return _context.Connection.Query<object>(qry).FirstOrDefault();
+            return _context.Connection.Query<Pie>(qry).ToList();
         }
-
-        public object GetNoDetectionCausePareto()
-        {
-            var qry = @$"
-SELECT 
-    TND.Code AS CauseCode,
-    TND.Name AS CauseName,
-    COUNT(TBNC.idNoDetectionCause) AS OccurrenceCount
-FROM 
-    TblNoDetectionCause TND
-LEFT JOIN 
-    TblBugNoDetectionCause TBNC ON TND.idNoDetectionCause = TBNC.idNoDetectionCause
-GROUP BY 
-    TND.Code, TND.Name
-ORDER BY 
-    OccurrenceCount DESC;
-";
-            return _context.Connection.Query<object>(qry).FirstOrDefault();
-        }
-
- 
     }
 }
