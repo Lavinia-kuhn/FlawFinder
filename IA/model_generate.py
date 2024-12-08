@@ -6,17 +6,17 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 import pickle
 
-# 1. Ler o CSV
+# 1. Le o CSV
 def carregar_dados(caminho_csv):
     return pd.read_csv(caminho_csv)
 
 # 2. Preprocessamento dos dados
 def preprocessar_dados(df):
-    # Separar dados com e sem o motivo preenchido
+    # Separa dados com e sem o motivo preenchido
     df_com_motivo = df.dropna(subset=['Motivo_Nao_Deteccao'])
     df_sem_motivo = df[df['Motivo_Nao_Deteccao'].isna()]
     
-    # Codificar variáveis categóricas para números
+    # Codifica variáveis categóricas para números
     label_encoders = {}
     for col in df_com_motivo.columns:
         if df_com_motivo[col].dtype == 'object':
@@ -26,7 +26,7 @@ def preprocessar_dados(df):
     
     return df_com_motivo, df_sem_motivo, label_encoders
 
-# 3. Treinar o modelo e salvá-lo no diretório C:\
+# 3. Treina o modelo e salva no diretório C:\
 def treinar_modelo(df_com_motivo, label_encoders):
     X = df_com_motivo.drop(columns=['Motivo_Nao_Deteccao'])
     y = df_com_motivo['Motivo_Nao_Deteccao']
@@ -44,7 +44,7 @@ def treinar_modelo(df_com_motivo, label_encoders):
     modelo_path = r'C:\modelo_random_forest.pkl'
     encoders_path = r'C:\label_encoders.pkl'
     
-    # Salvar o modelo e os encoders
+    # Salva o modelo e os encoders
     with open(modelo_path, "wb") as model_file:
         pickle.dump(modelo, model_file)
     
@@ -58,16 +58,16 @@ def treinar_modelo(df_com_motivo, label_encoders):
 
 # 4. Pipeline principal
 def main(caminho_csv):
-    # Carregar os dados
+    # Carrega os dados
     df = carregar_dados(caminho_csv)
     
-    # Preprocessar
+    # Preprocessa
     df_com_motivo, df_sem_motivo, label_encoders = preprocessar_dados(df)
     
-    # Treinar o modelo e salvar
+    # Treina o modelo e salva
     modelo = treinar_modelo(df_com_motivo, label_encoders)
 
-# Executar o script
+# Executa o script
 if __name__ == "__main__":
-    caminho_csv = r'C:\Users\laviniavk\Downloads\bugs_jira_completos.csv'  # Substitua pelo caminho do seu arquivo
+    caminho_csv = r'C:\Users\laviniavk\Downloads\bugs_jira_completos.csv'
     main(caminho_csv)
