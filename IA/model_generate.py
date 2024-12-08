@@ -6,11 +6,11 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 import pickle
 
-# 1. Le o CSV
+# Le o CSV
 def carregar_dados(caminho_csv):
     return pd.read_csv(caminho_csv)
 
-# 2. Preprocessamento dos dados
+# Preprocessamento dos dados
 def preprocessar_dados(df):
     # Separa dados com e sem o motivo preenchido
     df_com_motivo = df.dropna(subset=['Motivo_Nao_Deteccao'])
@@ -26,7 +26,7 @@ def preprocessar_dados(df):
     
     return df_com_motivo, df_sem_motivo, label_encoders
 
-# 3. Treina o modelo e salva no diretório C:\
+# Treina o modelo e salva no diretório C:\
 def treinar_modelo(df_com_motivo, label_encoders):
     X = df_com_motivo.drop(columns=['Motivo_Nao_Deteccao'])
     y = df_com_motivo['Motivo_Nao_Deteccao']
@@ -56,7 +56,7 @@ def treinar_modelo(df_com_motivo, label_encoders):
     
     return modelo
 
-# 4. Pipeline principal
+# Pipeline principal
 def main(caminho_csv):
     # Carrega os dados
     df = carregar_dados(caminho_csv)
