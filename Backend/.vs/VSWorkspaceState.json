@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PCFactoryManagementView.Domain",
+    "\\PCFactoryManagementView.Domain\\PcfactoryContext",
+    "\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common",
+    "\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers"
+  ],
+  "SelectedNode": "\\PCFactoryManagementView.Domain\\PcfactoryContext\\Common\\Handlers\\ReportHandler.cs",
+  "PreviewInSolutionExplorer": false
+}

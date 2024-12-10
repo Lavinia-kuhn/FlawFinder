@@ -1,0 +1,33 @@
+﻿namespace PCFactoryManagementView.Domain.PcfactoryContext.Enums
+{
+    public enum EChartType
+    {
+        LINEAREA,
+        DONUT,
+        COLUMN,
+        TABLE,
+        BAR,
+        LINE,
+        TIMELINE,
+        GANTT,
+        PARETO,
+        STACKEDCOLUMN,
+        GROUPEDCOLUMN,
+        STACKEDBAR,
+        XBAR,
+        XBARRBAR,
+        PRECONTROL,
+        ATTRIBUTE,
+        TREEDATA,
+        PARETOLINES, 
+        COLUMNLINES,
+        GOALCOLUMNLINE,
+        PARETODURATION,
+        PARETOLINESDURATION,
+        COLUMNLINESDURATION,
+        MULTIVIEWLINE,
+        DETAILDATA,
+        TREEDATAMANAGEMENT,
+        APITABLE
+    }
+}

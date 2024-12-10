@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\R20220510\**" />
+    <Compile Remove="Migrations\R20220708\**" />
+    <Compile Remove="Migrations\R20220719\**" />
+    <Compile Remove="Migrations\R20220915\**" />
+    <Compile Remove="Migrations\V4.3.2-PR1\**" />
+    <Compile Remove="Migrations\V4.3.2.100\**" />
+    <Compile Remove="Migrations\V4.3.4.100\**" />
+    <EmbeddedResource Remove="Migrations\R20220510\**" />
+    <EmbeddedResource Remove="Migrations\R20220708\**" />
+    <EmbeddedResource Remove="Migrations\R20220719\**" />
+    <EmbeddedResource Remove="Migrations\R20220915\**" />
+    <EmbeddedResource Remove="Migrations\V4.3.2-PR1\**" />
+    <EmbeddedResource Remove="Migrations\V4.3.2.100\**" />
+    <EmbeddedResource Remove="Migrations\V4.3.4.100\**" />
+    <None Remove="Migrations\R20220510\**" />
+    <None Remove="Migrations\R20220708\**" />
+    <None Remove="Migrations\R20220719\**" />
+    <None Remove="Migrations\R20220915\**" />
+    <None Remove="Migrations\V4.3.2-PR1\**" />
+    <None Remove="Migrations\V4.3.2.100\**" />
+    <None Remove="Migrations\V4.3.4.100\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\001_MyFirstMigration.sql" />
+    <None Remove="Migrations\20220216_G0021.sql" />
+    <None Remove="Migrations\Script_002_MySecondMigration.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.ServiceRegistration.Dynamic" Version="2.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.32" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PCFactoryManagementView.Domain\PCFactoryManagementView.Domain.csproj" />
+    <ProjectReference Include="..\PCFactoryManagementView.Shared\PCFactoryManagementView.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>

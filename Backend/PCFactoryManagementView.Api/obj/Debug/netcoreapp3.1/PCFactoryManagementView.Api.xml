@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PCFactoryManagementView.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.HomeController">
+            <summary>
+            Endpoints da Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.Get(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a Home
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.HomeController.GuidGen(PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar a geracao do Guid
+            </summary>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.IssueController">
+            <summary>
+            Endpoints de Report
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Pareto(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar Pareto de Motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Line(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar crescimento de motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.Pie(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.BugCount(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.IssueController.GetBugs(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IIssueHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar todos os motivos
+            </summary>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.CommonControllers.ReportController">
+            <summary>
+            Endpoints de Report
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.CommonControllers.ReportController.Report(PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IReportHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar report pelo codigo
+            </summary>
+            <param name="reportCode">Codigo do report</param>
+            <param name="_handler">Manipulador do report</param>
+            <returns>Retorna os reports com aquele codigo</returns>
+            <response code="200">Sucesso ao buscar o report</response>
+            <response code="400">Nao ha reports com este codigo</response>
+        </member>
+        <member name="T:PCFactoryManagementView.Api.Controllers.UserController">
+            <summary>
+            Endpoints relacionados a usuario
+            </summary>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Login(PCFactoryManagementView.Domain.PcfactoryContext.Common.Commands.LoginCommand,PCFactoryManagementView.Domain.PcfactoryContext.Common.Handlers.IUserHandler,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Logar com usuario
+            </summary>
+            <param name="login">Comando de login do usuario</param>
+            <param name="_handler">Manipulador do Usuario</param>
+            <param name="_log">Gerenciador de historico</param>
+            <response code="200">Usuario logado</response>
+            <response code="400">Usuario ou senha invalidos</response>
+        </member>
+        <member name="M:PCFactoryManagementView.Api.Controllers.UserController.Get(PCFactoryManagementView.Infra.PcfactoryContext.DataContext.PCFactoryManagementViewDataContext,PCFactoryManagementView.Shared.ILoggerManager)">
+            <summary>
+            Buscar usuario da tabela TBLUser onde FlgEnable seja igual a 1
+            </summary>
+            <param name="_context">Contexto</param>
+            <response code="200">Retorna a lista dos usuarios</response>
+            <response code="400">Lista de usuarios nao encotradas</response>
+        </member>
+    </members>
+</doc>

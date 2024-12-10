@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PcfactoryContext\Enums\NovaPasta\**" />
+    <EmbeddedResource Remove="PcfactoryContext\Enums\NovaPasta\**" />
+    <None Remove="PcfactoryContext\Enums\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="PcfactoryContext\Common\Repositories\iPrefsRepository.cs" />
+    <Compile Remove="PcfactoryContext\Enums\ETableName.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="PcfactoryContext\Common\Queries\AlarmInfoQueryResult.cs~RF601fb8f7.TMP" />
+    <None Remove="Translations\en.json" />
+    <None Remove="Translations\es.json" />
+    <None Remove="Translations\pt.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Translations\en.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translations\es.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translations\pt.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.ServiceRegistration.Dynamic" Version="2.0.0" />
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Flunt" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PcfactoryContext\Miscellaneous\Commands\" />
+    <Folder Include="PcfactoryContext\Miscellaneous\Entities\" />
+    <Folder Include="PcfactoryContext\Miscellaneous\Handlers\" />
+    <Folder Include="PcfactoryContext\Miscellaneous\Queries\" />
+    <Folder Include="PcfactoryContext\Miscellaneous\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PCFactoryManagementView.Shared\PCFactoryManagementView.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

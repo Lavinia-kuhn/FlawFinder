@@ -1,0 +1,355 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\R20220510\**" />
+    <Compile Remove="Migrations\R20220708\**" />
+    <Compile Remove="Migrations\R20220719\**" />
+    <Compile Remove="Migrations\R20220915\**" />
+    <Compile Remove="Migrations\R20230320\**" />
+    <EmbeddedResource Remove="Migrations\R20220510\**" />
+    <EmbeddedResource Remove="Migrations\R20220708\**" />
+    <EmbeddedResource Remove="Migrations\R20220719\**" />
+    <EmbeddedResource Remove="Migrations\R20220915\**" />
+    <EmbeddedResource Remove="Migrations\R20230320\**" />
+    <None Remove="Migrations\R20220510\**" />
+    <None Remove="Migrations\R20220708\**" />
+    <None Remove="Migrations\R20220719\**" />
+    <None Remove="Migrations\R20220915\**" />
+    <None Remove="Migrations\R20230320\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\001_MyFirstMigration.sql" />
+    <None Remove="Migrations\20220216_G0021.sql" />
+    <None Remove="Migrations\R20211018\20211018_Release.sql" />
+    <None Remove="Migrations\R20211103\20211103_Release.sql" />
+    <None Remove="Migrations\R20211206\20211206_Release.sql" />
+    <None Remove="Migrations\R20211224\20211214_Release.sql" />
+    <None Remove="Migrations\R20211224\20211222_Release.sql" />
+    <None Remove="Migrations\R20220131\20220131_Release.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0020.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0021_UTF8.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0133.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0133_UTF8.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0144.sql" />
+    <None Remove="Migrations\R20220216\20220216_G0144_UTF8.sql" />
+    <None Remove="Migrations\R20220216\20220216_TreeViewOM.sql" />
+    <None Remove="Migrations\R20220221\20220221_G0015Filter.sql" />
+    <None Remove="Migrations\R20220221\20220222_G0134.sql" />
+    <None Remove="Migrations\R20220221\20220224_G0141.sql" />
+    <None Remove="Migrations\R20220221\20220228_Dashboard.sql" />
+    <None Remove="Migrations\R20220221\20220228_G0015.sql" />
+    <None Remove="Migrations\R20220307\20220207_G0015.sql" />
+    <None Remove="Migrations\R20220307\20220307_DetailCard.sql" />
+    <None Remove="Migrations\R20220307\20220307_G0144.sql" />
+    <None Remove="Migrations\R20220309\20220309_EfficiencyCard.sql" />
+    <None Remove="Migrations\R20220309\20220309_G0019.sql" />
+    <None Remove="Migrations\R20220309\20220309_MenuOrder.sql" />
+    <None Remove="Migrations\R20220309\20220315_PREFS.sql" />
+    <None Remove="Migrations\R20220309\20220317_G0003.sql" />
+    <None Remove="Migrations\R20220328\20220311_G0137.sql" />
+    <None Remove="Migrations\R20220328\20220322_CardSinoptico.sql" />
+    <None Remove="Migrations\R20220328\20220324_G0025.sql" />
+    <None Remove="Migrations\R20220328\20220324_G0033.sql" />
+    <None Remove="Migrations\R20220328\20220328_G0022.sql" />
+    <None Remove="Migrations\R20220328\20220328_MenuOrder.sql" />
+    <None Remove="Migrations\R20220328\20220331_Gantt_G0022.sql" />
+    <None Remove="Migrations\R20220413\20220411_G0015_Upd.sql" />
+    <None Remove="Migrations\R20220413\20220412_G0025Enab.sql" />
+    <None Remove="Migrations\R20220413\20220413_G0018.sql" />
+    <None Remove="Migrations\R20220429\20220422_G0033Enable.sql" />
+    <None Remove="Migrations\R20220429\20220426_indicatorsCard.sql" />
+    <None Remove="Migrations\R20220429\20220428_Fav.sql" />
+    <None Remove="Migrations\R20220429\20220429_CardDuration.sql" />
+    <None Remove="Migrations\R20220429\20220429_G0009.sql" />
+    <None Remove="Migrations\R20220429\20220429_OeeStatus.sql" />
+    <None Remove="Migrations\R20220516\20220510_QueueOrder.sql" />
+    <None Remove="Migrations\R20220526\20220225_MenuOrder.sql" />
+    <None Remove="Migrations\R20220526\20220519_G0009.sql" />
+    <None Remove="Migrations\R20220526\20220523_ClusterCard.sql" />
+    <None Remove="Migrations\R20220526\20220525_G0103.sql" />
+    <None Remove="Migrations\R20220526\20220525_ParetoOfAlarms.sql" />
+    <None Remove="Migrations\R20220613\20220606_G0003.sql" />
+    <None Remove="Migrations\R20220613\20220608_PAGREPORT.sql" />
+    <None Remove="Migrations\R20220613\20220806_QtyStsG0009.sql" />
+    <None Remove="Migrations\R20220614\20220615_G0009TypeStatus.sql" />
+    <None Remove="Migrations\R20220614\20220617_G0020RemCompOfDate.sql" />
+    <None Remove="Migrations\R20220624\20220622_multiInspecao.sql" />
+    <None Remove="Migrations\R20220714\20220708_DisableFilterQuality.sql" />
+    <None Remove="Migrations\R20220714\20220708_G0100.sql" />
+    <None Remove="Migrations\R20220714\20220713_G0100_Translations.sql" />
+    <None Remove="Migrations\R20220714\20220714_MenuOrder.sql" />
+    <None Remove="Migrations\R20220714\20220718_G0020PerformaceEQualidade.sql" />
+    <None Remove="Migrations\R20220714\20220718_PerformaceOeeQuality.sql" />
+    <None Remove="Migrations\R20220829\20220829_G0012Filter.sql" />
+    <None Remove="Migrations\R20220829\20220829_G0013Filter.sql" />
+    <None Remove="Migrations\R20220913\20220902_G0012Filter.sql" />
+    <None Remove="Migrations\R20220913\20220902_G0013Filter.sql" />
+    <None Remove="Migrations\R20220913\20220902_G0033Filter.sql" />
+    <None Remove="Migrations\R20220913\20220908_G0022FilterDetail.sql" />
+    <None Remove="Migrations\R20220913\20220908_G0142EnableDate.sql" />
+    <None Remove="Migrations\R20221004\20220915_G0125.sql" />
+    <None Remove="Migrations\R20221004\20220915_G0126.sql" />
+    <None Remove="Migrations\R20221004\20220915_HiddenReport.sql" />
+    <None Remove="Migrations\R20221004\20220915_MenuOrder.sql" />
+    <None Remove="Migrations\R20221004\20220916_G0021NewTab.sql" />
+    <None Remove="Migrations\R20221004\20220923_G0128.sql" />
+    <None Remove="Migrations\R20221004\20220930_G0021_TranslationKeys.sql" />
+    <None Remove="Migrations\R20221004\20221003_DashboardFilters.sql" />
+    <None Remove="Migrations\R20221004\20221004_ReportTranslates.sql" />
+    <None Remove="Migrations\R20221004\20221005_PaceTranslate.sql" />
+    <None Remove="Migrations\R20221104\20221017_CardSumTempos.sql" />
+    <None Remove="Migrations\R20221104\20221017_G0129.sql" />
+    <None Remove="Migrations\R20221104\20221017_HiddenReport.sql" />
+    <None Remove="Migrations\R20221104\20221018_G0021_Filters.sql" />
+    <None Remove="Migrations\R20221104\20221028_AddsBalance.sql" />
+    <None Remove="Migrations\R20221104\20221030_AddressBalance.sql" />
+    <None Remove="Migrations\R20221104\20221101_G0100TableIndicator.sql" />
+    <None Remove="Migrations\R20221130\20221108_StorageTask.sql" />
+    <None Remove="Migrations\R20221130\20221109_G0001Filters.sql" />
+    <None Remove="Migrations\R20221130\20221111_G0002Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221111_G0006Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221111_G0008Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221111_G0010Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221117_StorageFilters.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0003Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0013Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0013_2Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0019ProductPareto.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0019Rework.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0019SCRAP.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0019Table.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0022Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0033Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0041CONSUMPTION.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0041OPERATION.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0041PRODQUANTITY.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0041REWORKTAB.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0041SCRAPTAB.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0050Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221118_G0099Dropdown.sql" />
+    <None Remove="Migrations\R20221130\20221130_FilterDashRefugo.sql" />
+    <None Remove="Migrations\R20221130\20221130_FilterDashRetrabalho.sql" />
+    <None Remove="Migrations\R20221130\20221130_FilterDashSinoptico.sql" />
+    <None Remove="Migrations\R20221130\20221130_Indicators2x2.sql" />
+    <None Remove="Migrations\R20221209\20221208_AlterReportAPI.sql" />
+    <None Remove="Migrations\R20221209\20221209_UpdateInd.sql" />
+    <None Remove="Migrations\R20221209\R20221206_G0050G0099Remove.sql" />
+    <None Remove="Migrations\R20221216\20221130_G0127.sql" />
+    <None Remove="Migrations\R20221216\20221212_G0014_Filter.sql" />
+    <None Remove="Migrations\R20221216\20221212_G0016_Filter.sql" />
+    <None Remove="Migrations\R20221216\20221213_G0012_Filter.sql" />
+    <None Remove="Migrations\R20221216\20221213_G0017_Filter.sql" />
+    <None Remove="Migrations\R20221216\20221214_ContainerFilter.sql" />
+    <None Remove="Migrations\R20221216\20221214_G0018_Filter.sql" />
+    <None Remove="Migrations\R20221216\20221214_MenuOrder.sql" />
+    <None Remove="Migrations\R20221216\20221215_G0016DisableDate.sql" />
+    <None Remove="Migrations\R20221216\20221215_G0128_Filter.sql" />
+    <None Remove="Migrations\R20221221\20221216_G0124.sql" />
+    <None Remove="Migrations\R20221221\20221220_G0124_Filter.sql" />
+    <None Remove="Migrations\R20221221\20221221_G0002CodWODET.sql" />
+    <None Remove="Migrations\R20221221\20221221_G0003CodWODET.sql" />
+    <None Remove="Migrations\R20221221\20221221_G0004CodWODET.sql" />
+    <None Remove="Migrations\R20221221\20221221_G0025CodWODET.sql" />
+    <None Remove="Migrations\R20230130\20230119_CardRefugoName.sql" />
+    <None Remove="Migrations\R20230130\20230120_PerfG0022.sql" />
+    <None Remove="Migrations\R20230130\20230125_TMPTEO.sql" />
+    <None Remove="Migrations\R20230130\20230127_FilterDateG0012.sql" />
+    <None Remove="Migrations\R20230130\20230130_TraducaoPerda.sql" />
+    <None Remove="Migrations\R20230203\20230202_G0043_AlarmFilter.sql" />
+    <None Remove="Migrations\R20230224\20230209_UpdCards.sql" />
+    <None Remove="Migrations\R20230224\20230214_DeleteTrendsDash.sql" />
+    <None Remove="Migrations\R20230224\20230216_G0127_Translation.sql" />
+    <None Remove="Migrations\R20230224\20230217_G0127_DetailFilter.sql" />
+    <None Remove="Migrations\R20230224\20230220_CreateAlarmCard.sql" />
+    <None Remove="Migrations\R20230224\20230222_G0001LineTab.sql" />
+    <None Remove="Migrations\R20230224\R20230213_G0012TraducaoTurno2.sql" />
+    <None Remove="Migrations\R20230320\20230309_AlterOEEName.sql" />
+    <None Remove="Migrations\R20230401\20230323_G0022_Filters.sql" />
+    <None Remove="Migrations\Script_002_MySecondMigration.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\R20221130\20221108_StorageTask.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221109_G0001Filters.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221117_StorageFilters.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0022Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0033Dropdown.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\R20220328\20220311_G0137.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220328_MenuOrder.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\R20220216\20220216_G0144_UTF8.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\R20211018\20211018_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20211103\20211103_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20211206\20211206_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20211224\20211214_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20211224\20211222_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20220131\20220131_Release.sql" />
+    <EmbeddedResource Include="Migrations\R20220216\20220216_G0020.sql" />
+    <EmbeddedResource Include="Migrations\R20220216\20220216_G0021_UTF8.sql" />
+    <EmbeddedResource Include="Migrations\R20220216\20220216_G0133_UTF8.sql" />
+    <EmbeddedResource Include="Migrations\R20220216\20220216_PCFAC4125.sql" />
+    <EmbeddedResource Include="Migrations\R20220216\20220216_TreeViewOM.sql" />
+    <EmbeddedResource Include="Migrations\R20220221\20220221_G0015Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220221\20220222_G0134.sql" />
+    <EmbeddedResource Include="Migrations\R20220221\20220224_G0141.sql" />
+    <EmbeddedResource Include="Migrations\R20220221\20220228_Dashboard.sql" />
+    <EmbeddedResource Include="Migrations\R20220221\20220228_G0015.sql" />
+    <EmbeddedResource Include="Migrations\R20220307\20220207_G0015.sql" />
+    <EmbeddedResource Include="Migrations\R20220307\20220307_DetailCard.sql" />
+    <EmbeddedResource Include="Migrations\R20220307\20220307_G0144.sql" />
+    <EmbeddedResource Include="Migrations\R20220309\20220309_EfficiencyCard.sql" />
+    <EmbeddedResource Include="Migrations\R20220309\20220309_G0019.sql" />
+    <EmbeddedResource Include="Migrations\R20220309\20220309_MenuOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20220309\20220315_PREFS.sql" />
+    <EmbeddedResource Include="Migrations\R20220309\20220317_G0003.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220322_CardSinoptico.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220324_G0025.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220324_G0033.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220328_G0022.sql" />
+    <EmbeddedResource Include="Migrations\R20220328\20220331_Gantt_G0022.sql" />
+    <EmbeddedResource Include="Migrations\R20220413\20220411_G0015_Upd.sql" />
+    <EmbeddedResource Include="Migrations\R20220413\20220412_G0025Enab.sql" />
+    <EmbeddedResource Include="Migrations\R20220413\20220413_G0018.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220426_indicatorsCard.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220422_G0033Enable.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220428_Fav.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220429_CardDuration.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220429_G0009.sql" />
+    <EmbeddedResource Include="Migrations\R20220429\20220429_OeeStatus.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220225_MenuOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220520_G0043Justificativs.sql" />
+    <EmbeddedResource Include="Migrations\R20220516\20220510_QueueOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220519_G0009.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220523_ClusterCard.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220525_G0103.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220525_ParetoOfAlarms.sql" />
+    <EmbeddedResource Include="Migrations\R20220526\20220527_G0009TableTab.sql" />
+    <EmbeddedResource Include="Migrations\R20220602\20220601_G0009Order.sql" />
+    <EmbeddedResource Include="Migrations\R20220613\20220606_G0003.sql" />
+    <EmbeddedResource Include="Migrations\R20220613\20220608_PAGREPORT.sql" />
+    <EmbeddedResource Include="Migrations\R20220613\20220806_QtyStsG0009.sql" />
+    <EmbeddedResource Include="Migrations\R20220614\20220615_G0009TypeStatus.sql" />
+    <EmbeddedResource Include="Migrations\R20220614\20220617_G0020RemCompOfDate.sql" />
+    <EmbeddedResource Include="Migrations\R20220624\20220622_multiInspecao.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220708_DisableFilterQuality.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220708_G0100.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220713_G0100_Translations.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220714_MenuOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220718_PerformaceOeeQuality.sql" />
+    <EmbeddedResource Include="Migrations\R20220714\20220718_G0020PerformaceEQualidade.sql" />
+    <EmbeddedResource Include="Migrations\R20220829\20220829_G0012Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220829\20220829_G0013Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220913\20220902_G0012Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220913\20220902_G0013Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220913\20220902_G0033Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20220913\20220908_G0022FilterDetail.sql" />
+    <EmbeddedResource Include="Migrations\R20220913\20220908_G0142EnableDate.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220915_G0125.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220915_G0126.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220915_HiddenReport.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220915_MenuOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220916_G0021NewTab.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220923_G0128.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20220930_G0021_TranslationKeys.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20221003_DashboardFilters.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20221004_ReportTranslates.sql" />
+    <EmbeddedResource Include="Migrations\R20221004\20221005_PaceTranslate.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221013_CardIndV2.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221017_CardSumTempos.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221017_G0129.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221017_HiddenReport.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221013_G0021AddTab.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221018_G0021_Filters.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221028_AddsBalance.sql" />
+    <EmbeddedResource Include="Migrations\R20221104\20221101_G0100TableIndicator.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221111_G0002Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221111_G0006Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221111_G0008Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221111_G0010Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0003Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0013Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0013_2Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0019ProductPareto.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0019Rework.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0019SCRAP.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0019Table.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0041CONSUMPTION.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0041OPERATION.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0041PRODQUANTITY.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0041REWORKTAB.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0041SCRAPTAB.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0050Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221118_G0099Dropdown.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221130_FilterDashRefugo.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221130_FilterDashRetrabalho.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221130_FilterDashSinoptico.sql" />
+    <EmbeddedResource Include="Migrations\R20221130\20221130_Indicators2x2.sql" />
+    <EmbeddedResource Include="Migrations\R20221209\20221208_AlterReportAPI.sql" />
+    <EmbeddedResource Include="Migrations\R20221209\20221209_UpdateInd.sql" />
+    <EmbeddedResource Include="Migrations\R20221209\R20221206_G0050G0099Remove.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221130_G0127.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221212_G0014_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221212_G0016_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221213_G0012_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221213_G0017_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221214_ContainerFilter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221214_G0018_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221214_MenuOrder.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221215_G0016DisableDate.sql" />
+    <EmbeddedResource Include="Migrations\R20221216\20221215_G0128_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221216_G0124.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221220_G0124_Filter.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221221_G0002CodWODET.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221221_G0003CodWODET.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221221_G0004CodWODET.sql" />
+    <EmbeddedResource Include="Migrations\R20221221\20221221_G0025CodWODET.sql" />
+    <EmbeddedResource Include="Migrations\R20230130\20230119_CardRefugoName.sql" />
+    <EmbeddedResource Include="Migrations\R20230130\20230120_PerfG0022.sql" />
+    <EmbeddedResource Include="Migrations\R20230130\20230125_TMPTEO.sql" />
+    <EmbeddedResource Include="Migrations\R20230130\20230127_FilterDateG0012.sql" />
+    <EmbeddedResource Include="Migrations\R20230130\20230130_TraducaoPerda.sql" />
+    <EmbeddedResource Include="Migrations\R20230203\20230202_G0043_AlarmFilter.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230209_UpdCards.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230214_DeleteTrendsDash.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230216_G0127_Translation.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230217_G0127_DetailFilter.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230220_CreateAlarmCard.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\20230222_G0001LineTab.sql" />
+    <EmbeddedResource Include="Migrations\R20230224\R20230213_G0012TraducaoTurno2.sql" />
+    <EmbeddedResource Include="Migrations\R20230320\20230309_AlterOEEName.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\R20230320\20230309_G0041TraducaoNomeStsOper.sql" />
+    <EmbeddedResource Include="Migrations\R20230401\20230323_G0022_Filters.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.ServiceRegistration.Dynamic" Version="2.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PCFactoryManagementView.Domain\PCFactoryManagementView.Domain.csproj" />
+    <ProjectReference Include="..\PCFactoryManagementView.Shared\PCFactoryManagementView.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\V4.3.1.0.PR1\" />
+  </ItemGroup>
+
+</Project>

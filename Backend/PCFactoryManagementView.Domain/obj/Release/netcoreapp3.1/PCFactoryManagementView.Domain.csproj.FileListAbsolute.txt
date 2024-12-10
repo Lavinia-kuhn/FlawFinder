@@ -1,0 +1,16 @@
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\Translations\en.json
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\Translations\es.json
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\Translations\pt.json
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\PCFactoryManagementView.Domain.deps.json
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\PCFactoryManagementView.Domain.dll
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\PCFactoryManagementView.Domain.pdb
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\PCFactoryManagementView.Shared.dll
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\bin\Release\netcoreapp3.1\PCFactoryManagementView.Shared.pdb
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.csproj.AssemblyReference.cache
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.AssemblyInfoInputs.cache
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.AssemblyInfo.cs
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.csproj.CoreCompileInputs.cache
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.csproj.CopyComplete
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.dll
+C:\Users\veniciojt\source\repos\pcfactory-management-view\PCFactoryManagementView.Domain\obj\Release\netcoreapp3.1\PCFactoryManagementView.Domain.pdb

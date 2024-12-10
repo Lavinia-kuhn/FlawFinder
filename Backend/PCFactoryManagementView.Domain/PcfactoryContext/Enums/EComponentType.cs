@@ -1,0 +1,35 @@
+﻿namespace PCFactoryManagementView.Domain.PcfactoryContext.Enums
+{
+    public enum EComponentType
+    {
+        Report, 
+        ReportTab,
+        ReportChart,
+        FilterOptions, 
+        FilterValues,
+        QuickFilterDate,
+        MainFilterDate,
+        MainFilterShift,
+        MainFilterShiftTeam,
+        MainFilterTreeView,
+        MainFilterProduct,
+        MainFilterProductFamily,
+        MainFilterProductType,
+        MainFilterLot,
+        MainFilterUnMov,
+        MainFilterAddress,
+        MainFilterWarehouse,
+        MainFilterMovType,
+        DashboardCard,
+        MainFilterTreeViewOM,
+        MainFilterWodet,
+        MainFilterWohd,
+        MainFilterResource,
+        MainFilterOriginWarehouse,
+        MainFilterEndWarehouse,
+        MainFilterOriginAddressGroup,
+        MainFilterEndAddressGroup,
+        MainFilterEndAddress,
+        MainFilterRoute
+    }
+}
