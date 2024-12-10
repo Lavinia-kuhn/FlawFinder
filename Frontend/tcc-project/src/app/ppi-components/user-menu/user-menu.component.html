@@ -1,0 +1,15 @@
+<a nzOverlayClassName="user-menu-dropdown" nzTrigger="click" class="user-menu-inner" nz-dropdown [nzDropdownMenu]="menu"
+    [nzPlacement]="'bottomCenter'">
+    <div class="user-avatar">
+        <img src="/assets/images/login/user.png">
+        <span class="user-text">{{ userLog }}</span>
+    </div>
+    <i nz-icon nzType="down"></i>
+</a>
+<nz-dropdown-menu #menu="nzDropdownMenu">
+    <h5>{{userLog}}</h5>
+    <div class="user-menu-dropdown-footer">
+        <button class="button-primary" nz-button nzType="primary" (click)="isLogout()">{{ 'GLOBAL.VIEW_GLOBAL_LOGOUT' |
+            translate }}</button>
+    </div>
+</nz-dropdown-menu>

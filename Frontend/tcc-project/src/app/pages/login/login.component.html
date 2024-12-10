@@ -1,0 +1,63 @@
+<div class="login-page">
+  <div class="main-div">
+    <div class="logo">
+      <img src="/assets/images/login/newIconMV.png" class="logo">
+    </div>
+    <mat-card>
+      <div>
+        <p class="blue-text font-open">{{'GLOBAL.VIEW_GLOBAL_WELCOME' | translate}}</p>
+        <p class="gray-text font-open">{{'GLOBAL.VIEW_GLOBAL_CREDENTIALS' | translate}}</p>
+      </div>
+      <mat-card-content>
+        <form [formGroup]="loginForm">
+          <mat-form-field appearance="outline">
+            <mat-error *ngIf="usuario.invalid">{{ 'GLOBAL.VIEW_GLOBAL_REQUIREDFIELD' | translate }}</mat-error>
+            <mat-label>{{ 'GLOBAL.VIEW_GLOBAL_USER' | translate }}</mat-label>
+            <input formControlName="user" matInput (keydown.enter)="$event.preventDefault()" required #usuario data-cy="user">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-error *ngIf="senha.errors && senha.errors.required">
+              {{ 'GLOBAL.VIEW_GLOBAL_REQUIREDFIELD' | translate }}
+            </mat-error>
+            <mat-error *ngIf="senha.errors && senha.errors.minlength">
+              {{ 'GLOBAL.VIEW_GLOBAL_PASSWORD' | translate }}
+            </mat-error>
+            <mat-hint *ngIf="passwordError" style="color: red;">{{ 'GLOBAL.VIEW_GLOBAL_PASSWORDERROR' | translate }}</mat-hint>
+            <mat-label>{{ 'GLOBAL.VIEW_GLOBAL_PASSWORD' | translate }}</mat-label>
+            <input formControlName="password" matInput [type]="hide ? 'password' : 'text'" placeholder="{{ 'GLOBAL.VIEW_GLOBAL_PASSWORD' | translate }}" 
+            (keydown.enter)="$event.preventDefault()" (keyup.enter)="getLogin()" required #senha data-cy="password">
+            
+            <button mat-icon-button matSuffix (click)="togglePasswordVisibility()" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide" (keydown.enter)="$event.preventDefault()" (keyup.enter)="togglePasswordVisibility()">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+          <mat-checkbox color="primary" class="font-open" value={remember} onchange="remember? true : false"
+            [(ngModel)]="remember" (change)="checkbox(remember? true : false)" formControlName="remember" data-cy="remember">
+            {{ 'GLOBAL.VIEW_GLOBAL_REMEMBER' | translate }}
+          </mat-checkbox>
+          <button mat-raised-button color="primary" type="submit" class="login-button font-open" [class.spinner]="waiting"
+            [disabled]="waiting" (click)="getLogin()" data-cy="loginButton">
+            {{ 'GLOBAL.VIEW_GLOBAL_LOGIN' | translate }}
+          </button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+    <div class="copyright font-roboto">
+      <p>{{'GLOBAL.VIEW_GLOBAL_COPYRIGHT' | translate}}</p>
+    </div>
+  </div>
+  <div class="expendable-div">
+    <div class="text-block">
+      <div class="blue-text-block">
+        <div class="block">
+          <p class="mv-title font-open">{{'GLOBAL.VIEW_GLOBAL_MV' | translate}}</p>
+          <p class="mv-text font-roboto">{{'GLOBAL.VIEW_GLOBAL_INTRODUCTORYTEXT' | translate}}</p>
+          <p class="contact font-open">
+            <a href="https://conteudo.ppi-multitask.com.br/fale-conosco" style="color: white;">{{'GLOBAL.VIEW_GLOBAL_CONTACT' | translate}}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

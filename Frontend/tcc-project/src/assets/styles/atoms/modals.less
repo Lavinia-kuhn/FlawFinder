@@ -1,0 +1,43 @@
+.ant-modal {
+    top: calc(100px + @layout-header-height);
+   
+    h2 {
+        margin-bottom: @margin-sm;
+    }
+
+    &-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: @padding-xs @padding-sm;
+        border: 0 !important;
+        button {
+            width: 50%;
+        }
+    }
+
+    .switch-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-body {
+      //  padding: 0;
+        >div {
+            margin: @margin-ppi 0;
+        }
+
+        .ant-checkbox-wrapper {
+            i {
+                font-size: @font-size-md;
+                margin-right: (5/@px);
+                color: @primary-color;
+            }
+        }
+    }
+
+    &-mask {
+        z-index: 0;
+    }
+}
+

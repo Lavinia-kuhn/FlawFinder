@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="fcc2916e423e43deb6fcdc94c896d202148447d9" datatype="html">
+        <source>Sinóptico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20afe1cfccc296bf31a61605581ece4dc9dba126" datatype="html">
+        <source>Ir Para</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7461fafe65e17a90fde312e000bf7c65121d9a79" datatype="html">
+        <source>Exportar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77599ddf9afa44ace59a49d189722138fb47671a" datatype="html">
+        <source>Imprimir</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f702eb83a017d5faedd82a57c51b08783f705744" datatype="html">
+        <source>Tela cheia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d207cfe8021237431a9e0234badd79c063424da" datatype="html">
+        <source>Voltar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b4be001ae52205c6783f2f1ffff6a4b062b6702" datatype="html">
+        <source>Exportar - <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ filters.tabTitle }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38740b7b4816356b4373b436aac1ca47420e3e87" datatype="html">
+        <source>Salvar como acesso rápido</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8d22cdef9f5780e31395340125d873f9df518c3" datatype="html">
+        <source>Cancelar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="336e7699f6bb455c97481a60ad9be3cad9f9c781" datatype="html">
+        <source>Confirmar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e7675d11669abe69bedd028252cd3420fc1c4f3" datatype="html">
+        <source>Imprimir - <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ filters.tabTitle }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/chart-tabs/chart-tabs.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70383ece3274ea835133f44ec65dff3a4ffccdcb" datatype="html">
+        <source>Filtrar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/filters/filters.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a29d567903d0ac0138331662098fd72faee4edc" datatype="html">
+        <source>Marcar como favorito</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b6d51a113cf727d7bab7f27eda88122c6e98ba0d" datatype="html">
+        <source>Remover dos favoritos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1edf6f86d84da83b4438b4696ffd62603c9cddb0" datatype="html">
+        <source>Detalhes de Filtros <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d1538ff265cdd6975910e1ddbd6e1e8b0843eca" datatype="html">
+        <source>Tempo Decorrido</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/time-period/time-period.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c8ece7f659c7cd21f116307a736e5f34efa07d7" datatype="html">
+        <source>De</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/time-period/time-period.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac19688f578ce08faee39b8b370d2b865788cb21" datatype="html">
+        <source>Até</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/time-period/time-period.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afcd00828b6a931aaa66852d0d19d17c5d7fcc29" datatype="html">
+        <source>
+    Cód. Status do Recurso
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/time-period/time-period.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d20e73403504092699189df5fa0dd8a66234a2a5" datatype="html">
+        <source>Limpar Notificações</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/map/map.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3a7010514ba6180aa57b15d22b03105490b7fa7" datatype="html">
+        <source>Mostrar Nomes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/map/map.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a95bcd23a8d78bd04145776eee9cd88cad82d2b9" datatype="html">
+        <source>Ops! Parece que você não tem nenhum mapa cadastrado.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/map/map.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd6705dbdec21c692b1f76065deef1982b8d544a" datatype="html">
+        <source>Para visualizar informações sobre a fabrica em tempo real, cadastre um mapa e associe máquinas a ele</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/map/map.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4861e0df421aaafcdeabb67e6e274ff078a121a" datatype="html">
+        <source>Produção</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2572e5cba46f8d27b9cdbfa2aeb4d4e867273f9" datatype="html">
+        <source>Últimas ocorrências</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d560e2d9d518f0eb46d6e275e24dfaf3ee3061ff" datatype="html">
+        <source>Comparar Com</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05eeba8032e73cc8d72c7d8b029774e28db84aa7" datatype="html">
+        <source>Limpar notificações</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/resource-panel/resource-panel.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/header-notifications/header-notifications.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3490c3eb12db9bfe89c089baa39317de150e209" datatype="html">
+        <source>
+            <x id="START_TAG_PPI-ICON" ctype="x-ppi-icon" equiv-text="&lt;ppi-icon&gt;"/><x id="CLOSE_TAG_PPI-ICON" ctype="x-ppi-icon" equiv-text="&lt;/ppi-icon&gt;"/>
+            Editar Cards
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9109b861e743d99ad5e13ab53409994123bbf4cf" datatype="html">
+        <source>Editar Cards</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62773d28bc4a497e99daa247bcf2276334d31992" datatype="html">
+        <source>Tabela</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="342b520ffc24c6c8c46ed7b2f7bbdffbd130d663" datatype="html">
+        <source>Timeline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/card/card.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ac63986fe1ccf3f3da10f2310c01252ea17e041" datatype="html">
+        <source>Andons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/andon/andon.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f1c31715db86730e21f8d8eedd0de42322aade9" datatype="html">
+        <source>Fechar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/sidebar-nav/sidebar-nav.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0faaddcc2e5f398947de1f2a43f8c9308a0c559c" datatype="html">
+        <source>
+        Você ainda não adicionou nenhuma página.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/sidebar-nav/sidebar-nav.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="349e803a2c76afbfbfd126f01be2f97687f89da6" datatype="html">
+        <source>
+        Você ainda não adicionou nenhuma ação.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ppi-components/sidebar-nav/sidebar-nav.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

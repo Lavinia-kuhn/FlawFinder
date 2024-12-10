@@ -1,0 +1,239 @@
+.login-page {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: fixed;
+  margin-left: -80px;
+  letter-spacing: normal;
+
+  @media only screen and (max-width: 1110px) {
+    margin-left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 2rem;
+    z-index: 9999;
+  }
+}
+
+.main-div {
+  width: 40%;
+
+  @media only screen and (max-width: 1110px) {
+    width: 100%;
+  }
+}
+
+.expendable-div {
+  width: 60%;
+  background-image: url('/assets/images/login/loginImage.png');
+  background-size: cover;
+
+  @media only screen and (max-width: 1110px) {
+    display: none;
+  }
+}
+
+mat-card {
+  width: 30vw;
+  margin: 13vh auto;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: none !important;
+
+
+  @media only screen and (max-width: 800px) {
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    box-shadow: none;
+    margin: 10vh auto;
+  }
+
+  @media only screen and (min-width: 800px) and (max-width: 1110px) {
+    width: 70%;
+    margin-top: 3rem;
+    margin: 6vh auto;
+  }
+
+  @media only screen and (min-width: 1110px) and (max-width: 1300px) {
+    margin: 6vh auto;
+    padding-top: 20px;
+  }
+
+  @media only screen and (min-width: 1300px) and (max-width: 1600px) {
+    margin: 10vh auto;
+  }
+
+}
+
+mat-form-field,
+mat-checkbox {
+  width: 90%;
+  display: block;
+  margin: auto;
+
+  @media only screen and (max-width: 800px) {
+    background-color: transparent !important;
+  }
+}
+
+// mat-card-content {
+//   margin-top: 20px;
+// }
+
+.login-button {
+  margin-top: 20px;
+  display: block;
+  width: 90%;
+  margin: 2vh auto;
+  background-color: #145DA0 !important;
+
+  @media only screen and (max-width: 800px) {
+    background-color: #145DA0; //rgb(1, 86, 154);//#1e95b0;
+    color: #f3f5f9;
+    padding: 0.5rem;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
+
+.logo {
+  background-color: #fff;
+  text-align: center;
+  height: 22vh;
+  margin: 5vh 0;
+
+  @media only screen and (max-width: 800px) {
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+  }
+}
+
+.mat-icon {
+  color: #a3a3a3;
+}
+
+.logoWs {
+  text-align: center;
+  height: 13vh;
+  margin-bottom: 2vw;
+  // position     : relative;
+  // top          : -20px;
+
+  @media only screen and (max-width: 1600px) {
+    height: 40%;
+    margin-top: 2rem;
+    // filter    : grayscale(100%);
+  }
+}
+
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #000000;
+  animation: spinner .8s linear infinite;
+}
+
+.blue-text {
+  color: #2186BE;
+  font-weight: 700;
+  font-size: x-large;
+  margin-left: 30px;
+}
+
+.gray-text {
+  color: #A6A6A6;
+  font-size: large;
+  margin-left: 30px;
+}
+
+.font-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', serif;
+}
+
+.text-block {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+}
+
+.blue-text-block {
+  width: 100%;
+  height: 25%;
+  background-color: #145ca09d;
+  display: block;
+}
+
+.block {
+  margin: 5%;
+}
+
+.mv-title {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+.mv-text {
+  color: white;
+  font-size: 0.9vw;
+  margin: 2.5vh 0;
+  line-height: 1.2em;
+}
+
+.contact {
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 2vh 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.mat-mdc-card-content {
+  padding: 0px !important;
+}
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+}

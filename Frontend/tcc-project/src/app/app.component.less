@@ -1,0 +1,47 @@
+@import '../assets/styles/theme.less';
+
+:host {
+  display: flex;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-layout {
+  height: 100vh;
+}
+
+.header-trigger {
+  height: 64px;
+  padding: 20px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .3s,padding 0s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+nz-header {
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.inner-content {
+  height: auto;
+}
+
+.selectRows {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 11px;
+}
+.selectRows_Clear {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+

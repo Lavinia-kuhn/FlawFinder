@@ -1,0 +1,97 @@
+.ant-btn{ 
+   // padding: 0 @padding-sm;
+  //  padding: 0;
+    box-shadow: none;
+    &:focus{
+        box-shadow: 1px 1px 5px 3px lighten(@primary-color, 30%);
+    }
+}
+
+.ant-btn-secondary{ 
+    // padding: 0 @padding-sm;
+   //  padding: 0;
+     box-shadow: none;
+     &:focus{
+         box-shadow: 1px 1px 5px 3px lighten(@dark-blue, 30%);
+     }
+ }
+
+.button-primary{
+    border: none;
+    background: @primary-color;
+    color: @white;
+    height: @height-lg;
+    cursor: pointer;
+    border-radius: @border-radius-sm;
+    transition: @hover-transition;
+    i {
+        color:@white;
+    }
+    &:hover{
+        background: darken(@primary-color, 10%);
+    }
+}
+
+.button-secondary{
+    border: none;
+    background: @dark-blue;
+    color: @white;
+    height: @height-lg;
+    cursor: pointer;
+    border-radius: @border-radius-sm;
+    transition: @hover-transition;
+    i {
+        color:@white;
+    }
+    &:hover{
+        background: darken(@dark-blue, 10%);
+    }
+}
+
+.button-outline{
+    border: 2px solid @primary-color;
+    color: @primary-color;
+    height: @height-lg;
+    cursor: pointer;
+    border-radius: @border-radius-sm;
+    background: none;
+    transition: @hover-transition;
+    font-weight: 500;
+    i {
+        color:@primary-color;
+    }
+    &:hover{
+        background: @primary-color;
+        color: @white;
+        i {
+            color:@white;
+        }
+    }
+}
+
+.button-outline-secondary{
+    border: 2px solid @dark-blue;
+    color: @dark-blue;
+    height: @height-lg;
+    cursor: pointer;
+    border-radius: @border-radius-sm;
+    background: none;
+    transition: @hover-transition;
+    font-weight: 500;
+    i {
+        color:@dark-blue;
+    }
+    &:hover{
+        background: @dark-blue;
+        color: @white;
+        i {
+            color:@white;
+        }
+    }
+}
+
+.link{
+    font-weight: 500;
+    font-size: .875rem;
+    text-decoration: underline;
+}

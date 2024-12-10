@@ -1,0 +1,49 @@
+@switch-prefix-cls: ~'@{ant-prefix}-switch';
+
+
+.@{switch-prefix-cls} {
+
+    background: none;
+    border: 1px solid @text-color-secondary;
+
+    &-handle {
+        &::before {
+            background: @text-color-secondary;
+            top: 0px;
+            left: 2px;
+            width: 16px;
+            height: 16px;
+            box-shadow: none;
+        }
+    }
+
+    &-checked {
+        border: 1px solid @primary-color;
+
+        ::before {
+            background-color: #27B9DA !important;
+        }
+
+        &-handle {
+            &::before {
+                background: @primary-color;
+
+                left: calc(100% - 16px - 2px);
+                color: #27B9DA !important
+            }
+        }
+    }
+
+    @media (max-width: @breakpoint-md) {
+        border: 1px solid @text-color-secondary;
+        &:after{
+            background: @text-color-secondary;
+        }
+        &-checked{
+            border: 1px solid @primary-color;
+            &:after{
+                background: @primary-color;
+            }
+        }
+    }
+}

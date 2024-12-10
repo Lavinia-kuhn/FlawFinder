@@ -1,0 +1,8 @@
+{
+    "env": {
+        "name": "dev"
+    },
+    "apiServer": {
+        "url": "http://localhost:9167/"
+    }
+}

@@ -1,0 +1,36 @@
+.ppi-table {
+    font-family: @font-family;
+
+    .ag-root-wrapper {
+        background: none;
+        border    : none;
+    }
+
+    .ag-header {
+        background: none;
+        border    : none;
+
+        &-cell {
+            font-size  : 16px; //@font-size-lg;
+            font-weight: 500;
+        }
+    }
+
+    .ag-row {
+        cursor    : pointer;
+    }
+
+    .ag-cell-value {
+        line-height: normal;
+        display    : flex;
+        align-items: center;
+
+        .ag-row-group {
+            align-items: center;
+        }
+    }
+
+    @media only screen and(max-width: 800px) {
+        height: 55vh !important;
+    }
+}

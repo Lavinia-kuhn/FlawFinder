@@ -1,0 +1,184 @@
+.notification-item {
+  padding: @padding-xxs @padding-xxs @padding-xxs @padding-sm;
+  font-size: @font-size-sm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: @icon-color;
+    position: absolute;
+    left: 10px;
+  }
+
+  &.notification {
+    &-working:before {
+      background: @tempo-trabalhado-color;
+    }
+
+    &-not-working:before {
+      background: @fora-de-turno-color;
+      border: @border;
+    }
+
+    &-unplanned-stop:before {
+      background: @parada-nao-planejada-color;
+    }
+
+    &-planned-stop:before {
+      background: @parada-planejada-color;
+    }
+
+    &-planned-stop-2:before {
+      background: @parada-planejada-2-color;
+    }
+  }
+
+  span {
+    margin-right: @padding-xs;
+
+    &:nth-child(2) {
+      margin-right: auto;
+    }
+  }
+}
+
+.cdk-overlay-connected-position-bounding-box {
+  .cdk-overlay-pane {
+    .notifications-dropdown-wrapper {
+      padding: (5/@px) @padding-xs @padding-ppi @padding-xs;
+      margin-top: @margin-ppi;
+      background: @white;
+    }
+
+    .clear-notifications-wrapper {
+      padding: 0 @padding-xxs;
+    }
+  }
+}
+
+
+
+
+.resource-panel-notifications {
+  .ant-collapse-borderless>.ant-collapse-item {
+    .ant-collapse-header {
+      .ant-collapse-arrow {
+        right: 0;
+        font-size: (14/@px);
+        color: @text-color-tertiary;
+      }
+
+      .ant-collapse-extra {
+        float: none !important;
+      }
+
+      .notification-item {
+        font-size: (14/@px);
+        color: @text-color-tertiary;
+        padding-left: @padding-xs;
+
+        &:before {
+          left: 0;
+        }
+      }
+    }
+
+    .ant-collapse-content {
+      opacity: 0;
+
+      &-active {
+        opacity: 1;
+        padding: 1rem;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.resource-panel-chart {
+  .combo-chart .line-chart-wrapper {
+    height: 240px;
+  }
+}
+
+
+//MOBILE
+.mobile-map-collapse {
+  padding-bottom: 64px;
+  
+  .ant-collapse-item {
+    background: @white;
+    padding: @padding-xs @padding-xxs @padding-xs @padding-xxs;
+    position: relative;
+
+    &:before {
+      content: '';
+      height: (10/@px);
+      width: (10/@px);
+      border-radius: 50%;
+      position: absolute;
+      top: (25/@px);
+      left: (10/@px);
+    }
+
+    &.notification {
+      &-working:before {
+        background: @tempo-trabalhado-color;
+      }
+
+      &-not-working:before {
+        background: @fora-de-turno-color;
+        border: @border;
+      }
+
+      &-unplanned-stop:before {
+        background: @parada-nao-planejada-color;
+      }
+
+      &-planned-stop:before {
+        background: @parada-planejada-color;
+      }
+
+      &-planned-stop-2:before {
+        background: @parada-planejada-2-color;
+      }
+    }
+
+    .ant-collapse-content {
+      margin: 20px;
+
+      app-resource-panel {
+        background: @body-background;
+        padding: 0 @padding-xxs;
+      }
+    }
+
+    .ant-collapse-content {
+      margin: 0 -@margin-xxs;
+
+      app-resource-panel {
+        background: @body-background;
+        padding: 0 @padding-xxs;
+      }
+    }
+
+    .ant-collapse-header {
+      .ant-collapse-arrow {
+        right: @padding-xxs;
+      }
+
+      .ant-collapse-extra {
+        float: left;
+
+        .ant-badge {
+          margin-left: @margin-xxs;
+        }
+      }
+    }
+  }
+}

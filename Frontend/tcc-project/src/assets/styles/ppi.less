@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100vh;
+
+  &.locked {
+    overflow: hidden;
+  }
+}
+
+#ppi {
+
+  .ant-layout-content {
+    padding-top: 15px;
+  }
+
+  .print .print-close {
+    right: 155px;
+  }
+
+  .page-content {
+    padding: 15px 15px 15px 15px; //@padding-sm @padding-md @padding-sm @padding-md;
+    width: calc(100vw - 80px);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  nz-layout {
+    padding-left: 40px;
+    overflow: visible;
+  }
+
+  .ant-spin-spinning {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .cdk-overlay-container {
+    z-index: @z-index-sidebar;
+
+    .ant-menu-submenu-placement-right {
+      left: @spacer;
+      border: @border-light;
+      border-radius: 0;
+    }
+
+    .ant-menu-submenu-popup::before {
+      position: relative;
+    }
+
+    .ant-menu-sub {
+      background: @white;
+      color: rgb(77, 77, 77);
+
+      .ant-menu-item {
+        color: rgb(77, 77, 77);
+        padding-left: @padding-ppi;
+        position: relative;
+
+        i {
+          opacity: 0;
+          margin-right: @padding-xxs;
+          font-size: 20px;
+        }
+
+        &:hover {
+          color: #144772;
+
+          i {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .global-search-item {
+      padding: @padding-xxs @padding-xs;
+
+      a {
+        color: @text-color;
+      }
+    }
+
+    .ant-tooltip-arrow::before {
+      background-color: #fff;
+    }
+
+    .ant-tooltip-inner {
+      background-color: #fff;
+      color: #000;
+
+      .tooltip-fix {
+        font-size: 0.8rem;
+        margin: 0;
+        visibility: visible;
+        text-align: center;
+
+        .statusTooltip {
+          &.tooltip-green {
+            background-color: #52C41A !important;
+          }
+
+          &.tooltip-yellow {
+            background-color: #FBBE43 !important;
+          }
+
+          &.tooltip-red {
+            background-color: #FF9391 !important;
+          }
+
+          &.tooltip-grey {
+            background-color: #808080 !important;
+          }
+        }
+
+        nz-progress {
+          margin: 5px !important;
+        }
+
+        .box-progress {
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    nz-layout {
+      padding-left: 0;
+    }
+
+    .page-content {
+      padding: @padding-sm @padding-xs;
+      width: 100vw;
+    }
+
+    .cards>div {
+      min-width: 300px;
+      flex-grow: 1;
+      max-width: 100%;
+    }
+
+    .button-outline.filters-collapse-button:hover {
+      border: 2px solid #27B9DA;
+      color: #F3F5F9;
+      height: 40px;
+      cursor: pointer;
+      border-radius: 2px;
+      background: none;
+    }
+
+    .filters-collapse-button.button-outline {
+      color: #F3F5F9;
+    }
+  }
+
+  // @media (max-width: @breakpoint-md) {
+  //   nz-layout {
+  //     padding-bottom: 100px;
+  //   }
+  // }
+}
+
+::-webkit-scrollbar {
+  background:#dddddd;
+  scrollbar-width: thin;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border-radius: 10px;
+}

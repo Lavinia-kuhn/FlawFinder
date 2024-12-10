@@ -1,0 +1,11 @@
+<nz-layout class="app-layout" #layout>
+  <app-sidebar-nav *ngIf="router.url != '/login'"></app-sidebar-nav>
+  <nz-layout>
+   
+    <nz-content #nzContent>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>

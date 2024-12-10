@@ -1,0 +1,168 @@
+.ant-tabs-nav {
+    border-bottom: @border;
+    margin-bottom: 0;
+
+    .ant-tabs-nav {
+        color: @text-color-secondary;
+        padding: 5px 0;
+
+        &&-active &-btn {
+            color: @secondary-color;
+        }
+    }
+
+    .ant-tabs-ink-bar {
+        background: @secondary-color;
+    }
+}
+
+
+
+.ant-tabs-tabpane {
+    //  padding: @padding-xs 0 0 0;
+    //  min-height: @margin-ppi;
+    position: relative;
+
+    @media (max-width: @breakpoint-md) {
+        padding-top: @padding-xs;
+    }
+
+    .donut-chart-wrapper,
+    .bar-legend-wrapper {
+        width: 50%;
+    }
+
+    .bar-legend-wrapper {
+        max-height: 160px;
+    }
+}
+
+.app-treeview .ant-tabs-nav .ant-tabs-tab-active {
+    color: white !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    color: #353434 !important;
+
+    &&-active &-btn {
+        color: @secondary-color;
+    }
+}
+
+.ant-tabs-tab+.ant-tabs-tab {
+    margin: -1px !important;
+}
+
+.tabs-actions {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    background: rgb(243, 245, 249);
+    display: table;
+    width: auto;
+    padding: 0px 0px 0px 12px;
+    margin-top: 10px;
+
+    .ant-select {
+        min-width: 160px;
+    }
+
+    >a {
+        font-size: 1.2rem;
+        color: rgb(170 171 174) !important;
+
+        &.actions-menu-link {
+            color: @text-color;
+        }
+
+        @media only screen and (max-width: 800px) {
+            margin-left: 0px;
+            font-size: 1rem;
+            color: #444 !important;
+        }
+    }
+
+    @media (max-width: @breakpoint-md) {
+        position: relative;
+        top: unset;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        .ant-select {
+            width: 80%;
+        }
+
+        &.dashboard {
+            .ant-select {
+                width: 60%;
+            }
+        }
+    }
+}
+
+.more-options-icon {
+    @media only screen and (max-width: 800px) {
+        color: #444;
+    }
+}
+
+.print-title,
+.print-close {
+    display: none;
+}
+
+.print {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 999;
+
+    .tabs-actions {
+        display: none;
+    }
+
+    .print-title {
+        display: flex;
+        padding: @padding-sm @padding-md;
+    }
+
+    .print-close {
+        display: flex;
+        position: absolute;
+        right: @padding-md;
+        top: @padding-sm;
+        cursor: pointer;
+    }
+
+    app-donut-chart {
+        max-width: 100%;
+    }
+
+    .breadcrumb,
+    .ant-input-group {
+        display: none;
+    }
+}
+
+@media print {
+    .print {
+        .print-close {
+            display: none;
+        }
+
+        app-donut-chart {
+            flex-wrap: wrap;
+        }
+
+        .donut-chart-wrapper,
+        .bar-legend-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

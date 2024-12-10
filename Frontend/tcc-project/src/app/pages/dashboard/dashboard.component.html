@@ -1,0 +1,37 @@
+<div class="page-content">
+  <h2>
+    Dashboard
+  </h2>
+
+  <div nz-row class="grid-container">
+
+    <div nz-col [nzSpan]="16" class="card">
+      <h3>Pareto de Motivos</h3>
+      <div id="container1"></div>
+    </div>
+
+    <div nz-col [nzSpan]="8" class="card">
+      <h3>Motivos</h3>
+      <div id="container2"></div>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="grid-container">
+
+    <div nz-col [nzSpan]="8" class="card bugs-card">
+      <div class="bugs-content">
+        <h3>Bugs</h3>
+        <h1>{{ bugcount }}</h1>
+      </div>
+    </div>
+
+    <div nz-col [nzSpan]="16" class="card">
+      <h3>Crecimento dos Motivos</h3>
+      <div id="container3"></div>
+    </div>
+
+  </div>
+
+</div>

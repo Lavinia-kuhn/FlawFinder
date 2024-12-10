@@ -1,0 +1,38 @@
+#ppi {
+  nz-sider {
+    padding: 0 @padding-xxs;
+    overflow: auto;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    .sidebar-collapse{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: @layout-header-height;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      .trigger{
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+  .ant-layout-sider-children {
+    position: relative;
+    min-height: 100vh;
+  }
+  .ant-menu > li{
+    height: auto;
+    margin: 0;
+    padding: @padding-xs 0 @padding-xs 20px;
+  }
+
+  .ant-menu-inline.ant-menu-sub { background: none; }
+
+  .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: auto;
+    padding: 0;
+  }
+
+}

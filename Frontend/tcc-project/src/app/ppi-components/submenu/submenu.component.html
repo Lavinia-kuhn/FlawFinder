@@ -1,0 +1,36 @@
+ <!-- <app-alert *ngIf= "!alert">
+</app-alert>   -->
+<div *ngIf="isMobile; else desktop">
+    <div class="reports-submenu-mobile">
+        <ul class="submenu-items">
+            <li class="submenu-item" *ngFor="let menuItem of reportMenuItems; let i = index">
+                <a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu" nzPlacement="bottomCenter">{{'MENU.' +
+                    menuItem.reportMenuLabel | translate}} <i nz-icon nzType="down" nzTheme="outline"></i></a>
+                <nz-dropdown-menu #menu="nzDropdownMenu">
+                    <ul nz-menu class="submenu-dropdown">
+                        <li *ngFor="let submenuItem of menuItem.submenu" nz-menu-item class="submenu-dropdown-item">{{ submenuItem.name | translate }}
+                            <a routerLink="{{submenuItem.link}}"></a>
+                        </li>
+                    </ul>
+                </nz-dropdown-menu>
+            </li>
+        </ul>
+    </div>
+</div>
+<ng-template #desktop>
+    <div class="reports-submenu">
+        <ul class="submenu-items">
+            <li class="submenu-item" *ngFor="let menuItem of reportMenuItems; let i = index">
+                <a class="submenu-hotspot" id="{{ 'menuHotspot-' + i }}" nz-dropdown nzTrigger="click"
+                    [nzDropdownMenu]="menu" nzPlacement="bottomLeft">{{'MENU.' + menuItem.reportMenuLabel |
+                    translate}} <i nz-icon nzType="down" nzTheme="outline"></i></a>
+                <nz-dropdown-menu #menu="nzDropdownMenu">
+                    <ul nz-menu class="submenu-dropdown">
+                        <li *ngFor="let submenuItem of menuItem.submenu" nz-menu-item class="submenu-dropdown-item">{{
+                            submenuItem.name | translate }} <a routerLink="{{submenuItem.link}}"></a></li>
+                    </ul>
+                </nz-dropdown-menu>
+            </li>
+        </ul>
+    </div>
+</ng-template>

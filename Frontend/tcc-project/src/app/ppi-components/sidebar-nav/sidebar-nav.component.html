@@ -1,0 +1,24 @@
+<nz-sider class="menu-sidebar" nzCollapsible nzBreakpoint="xl" [nzWidth]="isCollapsed ? '80px' : '300px'"
+  [nzTrigger]="null" [nzCollapsed]="isCollapsed">
+  <div class="sidebar-collapse">
+    <div class="trigger" (click)="toggleMenu()">
+      <i nz-icon [nzType]="isCollapsed ? 'menu' : 'arrow-left'"> </i>
+    </div>
+    <span (click)="toggleMenu()">{{ 'GLOBAL.VIEW_GLOBAL_CLOSE' | translate }}</span>
+  </div>
+  <ul nz-menu nzInlineIndent="24px" [nzInlineCollapsed]="isCollapsed" nzTheme="dark" [nzMode]="menuMode">
+    <li (click)="goToReport()" nz-menu-item nzMatchRouterExact>
+      <a target="_blank"></a>
+      <i nz-icon nzType="file-text" nzTheme="outline"></i>
+      <span>Relatório</span>
+    </li>
+    <li (click)="goToDashboard()" nz-menu-item nzMatchRouterExact>
+      <a target="_blank"></a>
+      <i nz-icon nzType="area-chart" nzTheme="outline"></i>
+      <span>Dashboard</span>
+    </li>
+    <hr />
+
+  </ul>
+</nz-sider>
+<div class="sidebar-overlay" (click)="closeSidebar()" *ngIf="!isCollapsed"></div>

@@ -1,0 +1,258 @@
+@import 'headings.less';
+
+.cards{
+    margin-top: @margin-sm;
+    @media (max-width: @breakpoint-md) { 
+        margin-top: @margin-xs;
+    }
+    > div{ margin-bottom: @padding-xs; }
+    .ant-card{
+         &-body{ padding-top: 20; }
+    }
+
+    .ant-card > .ant-card-body > .charts > .mapCard {
+      //  height: 575px ;
+        &-body{ padding-top: 20; }
+    }
+    .actions-menu-link{
+        color: @text-color;
+    }
+    .ant-card-actions {
+        top: 0 !important;
+        position: absolute  !important;
+        right: 0 !important;
+        background: none ;
+        border: none;
+    }
+    .donut-chart-wrapper{
+        max-height: 220px;
+    }
+    .bar-legend-wrapper{
+        max-height: 170px;
+    }
+
+    .cursorIcon {
+        cursor: pointer;
+    }
+
+    .edit-cards{
+        border: 1px dashed @light-blue-2;
+        background: none;
+        transition: @hover-transition;
+        &-hotspot{
+            ppi-icon nz-icon{ color: @secondary-color; }
+            color: @secondary-color;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            transition: @hover-transition;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            svg {
+                height: 40px;
+                width: 40px;
+                color: @secondary-color;
+            }
+        }
+
+        &:hover{
+            background: @secondary-color;
+            border: none;
+            transition: @hover-transition;
+            .edit-cards-hotspot{
+                color: @white;
+                transition: @hover-transition;
+
+                svg {
+                    color: @white;
+                    transition: @hover-transition;
+                }
+            }
+        }
+
+        @media (max-width: @breakpoint-md) {  
+            border: 2px solid @primary-color;
+            color: @primary-color;
+            height: @height-lg;
+            cursor: pointer;
+            border-radius: @border-radius-sm;
+            background: none;
+            transition: @hover-transition;
+            margin: 10px 15px 50px 15px;
+            &:hover{
+                background: @primary-color;
+                color: @white;
+                transition: @hover-transition;
+            }
+
+            i {
+                display: none;
+            }
+
+            &-hotspot{ 
+                color: @primary-color;
+            }
+        }
+    }
+
+    @media (max-width: @breakpoint-md) { 
+        width: 100%;
+        margin-left: -15px; 
+    }
+}
+
+.cards-container {
+    @media (max-width: @breakpoint-md) { 
+        margin-left: -15px;
+        margin-right: -15px;
+        overflow: hidden;
+        max-width: 100vw;
+        
+        .cards.ant-row {
+            width: calc(100% + 15px);
+        }
+    }
+}
+
+[nzTitle] {
+    padding: 0.8rem ;
+}
+
+.ant-card-meta-title {
+    padding: 0.8rem ;
+}
+
+// .twolines{
+//     //height: 870px !important;
+//     max-height: 100% !important;
+// }
+// .oneline{
+//     height: 575px;
+// }
+
+.print-title,
+.print-close{display: none;}
+
+.print
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 999;
+    height: initial !important;
+
+    .tabs-actions{ display: none; }
+    .print-title{
+        display: flex;
+        padding: @padding-sm @padding-md;
+    }
+    .print-title{
+        display: flex;
+        padding: @padding-sm @padding-md;
+    }
+    .print-close
+    {
+        display: flex;
+        position: absolute;
+        right: 75px;
+        top: 16px;
+        cursor: pointer;
+    }
+    app-donut-chart{ max-width: 100%; }
+    .breadcrumb,
+    .ant-card-extra{ display: none; }
+}
+
+.print-tab
+{   
+    .buttons-row
+    {
+        visibility: hidden;
+        height: 0px;
+    }
+    .ant-row
+    {
+        position: relative;
+        top: -30px;
+    }
+    position: absolute;
+    left: 0;
+    top: -100px;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 999;
+    height: initial !important;
+    visibility: visible;
+    .tabs-actions{ display: none; }
+    .print-title{
+        display: flex;
+        padding: @padding-sm @padding-md;
+        visibility: visible;
+    }
+    .print-title{
+        display: flex;
+        padding: @padding-sm @padding-md;
+        visibility: visible;
+    }
+    .print-close
+    {
+        display: flex;
+        position: absolute;
+        right: 75px;
+        top: 16px;
+        cursor: pointer;
+    }
+    app-donut-chart{ max-width: 100%; }
+    .breadcrumb,
+    .ant-card-extra{ display: none; }
+}
+
+.print-graphic
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 999;
+    height: initial !important;
+    visibility: visible;
+    .tabs-actions{ display: none; }
+    .print-title{
+        display: flex;
+        padding: @padding-sm @padding-md;
+        visibility: visible;
+    }
+    .print-close
+    {
+        display: flex;
+        position: absolute;
+        right: 75px;
+        top: 16px;
+        cursor: pointer;
+    }
+    
+    
+    app-donut-chart{ max-width: 100%; }
+    .breadcrumb,
+    .ant-card-extra{ display: none; }
+}
+
+@media print{
+    .print{
+        .print-close{ display: none; }
+        app-donut-chart{ flex-wrap: wrap; }
+        .donut-chart-wrapper,
+        .bar-legend-wrapper{ width: 100%; display: flex; justify-content: center; }
+    }
+}

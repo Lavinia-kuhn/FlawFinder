@@ -1,0 +1,45 @@
+@import '../../../assets/styles/theme.less';
+
+ppi-icon {
+	position: relative;
+	z-index: 1;
+}
+
+.sidebar-overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: @z-index-sidebar-overlay;
+	background: @modal-mask-bg;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+.alert{
+  margin-left: 33%;
+  width: 30%;
+  position: absolute;
+  z-index: 999;
+  margin-top: 40%;
+}
+
+nz-alert {
+  margin-bottom: 16px;
+  width: 100%;
+  border-radius: 14px !important;
+  position: relative;
+}
+
+::ng-deep .ant-menu-submenu-title .anticon-star-fill {
+	color:rgba(255, 255, 255, 0.8);
+  }
+
+  ::ng-deep .ant-menu-submenu-title .anticon-thunderbolt-fill {
+	color:rgba(255, 255, 255, 0.8);
+  }
