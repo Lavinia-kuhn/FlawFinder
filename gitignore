@@ -1,1 +1,59 @@
+# Ignorar arquivos de saída compilados
+*/dist/
+*/tmp/
+*/out-tsc/
+*/bazel-out/
+*/bin/
+*/obj/
 
+# Ignorar dependências
+*/node_modules/
+*/package-lock.json
+
+# Ignorar arquivos gerados pelo Python
+*.pyc
+__pycache__/
+
+# Ignorar arquivos de perfil
+*/chrome-profiler-events*.json
+*/speed-measure-plugin*.json
+
+# Ignorar arquivos de cobertura e logs
+*/coverage/
+*/libpeerconnection.log
+*/npm-debug.log
+*/yarn-error.log
+*/testem.log
+
+# Ignorar arquivos e pastas específicas de IDEs e editores
+*/.idea/
+*/.project
+*/.classpath
+*/.c9/
+*/.settings/
+*/.history/
+*.launch
+*.sublime-workspace
+*/.vs/
+*/.dll
+
+# Ignorar arquivos específicos do VSCode
+*/.vscode/*
+!*/.vscode/settings.json
+!*/.vscode/tasks.json
+!*/.vscode/launch.json
+!*/.vscode/extensions.json
+
+# Ignorar arquivos temporários e de cache
+*/.sass-cache/
+*/connect.lock
+*/typings/
+.DS_Store
+*/Thumbs.db
+
+# Ignorar arquivos de build do .NET
+bin/
+obj/
+
+# Ignorar node_modules do Angular
+Frontend/node_modules/
