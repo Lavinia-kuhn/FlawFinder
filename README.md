@@ -46,9 +46,6 @@ testes, permitindo que a equipe de QA foque mais nessas áreas.
  ○ Compatibilidade e Integração: Desenvolvimento da ferramenta para se
 integrar com sistemas e ferramentas de QA já utilizados pela equipe.
 
- ○ Insights em Tempo Real: Implementação de funcionalidades para fornecer
-insights e recomendações durante ou após o processo de teste.
-
 5. Desenvolvimento da Interface de Usuário
    
  ○ Dashboard: Design e implementação de uma tela com gráficos para
@@ -76,16 +73,16 @@ existentes, além das integrações necessárias para coleta de dados.
 # Entregáveis do Projeto
 1. Ferramenta de IA Funcional
 
-○ Uma ferramenta de IA que analisa dados de QA e identifica causas para a
+○ Uma ferramenta que utiliza IA para analisar dados de QA e identificar causas para a
 não detecção de defeitos.
 
-2. Interface de Usuário
+2. Dashboard
 
 ○ Um dashboard que permite visualizar e interagir com os dados fornecidos pela ferramenta.
 
-3. Relatórios
+3. Relatório
 
-○ Relatórios detalhados sobre os motivos da não detecção de defeitos no processo de QA.
+○ Relatório com informações sobre os motivos da não detecção de defeitos no processo de QA.
 
 5. Documentação
 
@@ -98,7 +95,7 @@ projetos específicos e tipos de issues.
 
 RF002 - O sistema deve utilizar aprendizado de máquina supervisionado com o algoritmo Random Forest para classificar os motivos pelos quais bugs não foram detectados durante o fluxo de QA. A partir de dados históricos rotulados, a IA preverá os motivos de falhas em novos bugs. O modelo deve ser atualizável com novos dados de bugs e testes para aprimorar continuamente as classificações.
 
-RF003 - O sistema deve gerar relatórios e Dashboard apresentando o resultado das análises
+RF003 - O sistema deve gerar relatório e Dashboard apresentando o resultado das análises
 realizadas.
 
 RF004 - O sistema deve permitir exportar os relatórios no formato
@@ -118,8 +115,7 @@ RNF002 - O sistema deve garantir a abertura dos relatórios com no mínimo 5
 segundos de espera.
 
 RNF003 - O sistema deve possuir uma interface fácil e ágil para coleta das
-informações, incluindo uma navegação intuitiva com feedbacks claros sobre
-o progresso da coleta de dados.
+informações.
 
 RNF004 - Deverá ter disponibilidade de no mínimo 20 horas por dia.
 
