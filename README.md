@@ -101,7 +101,7 @@ realizadas.
 RF004 - O sistema deve permitir exportar os relatórios no formato
 excel, apenas para consulta.
 
-RF005 - O sistema deve apresentar gráficos com o aumento de motivos de Bugs sem
+RF005 - O sistema deve apresentar gráficos com informações dos motivos de Bugs sem
 detecção pelo fluxo de QA.
 
 
