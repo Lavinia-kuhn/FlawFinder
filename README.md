@@ -36,7 +36,7 @@ detecção de defeitos em casos de teste específicos.
 
 3. Geração de informações
    
- ○ Relatórios Detalhados: Criação de relatórios que descrevem as causas da
+ ○ Relatório Detalhados Criação de relatórios que descreve as causas da
 não detecção, auxiliando na percepção de
 problemas que são mais prováveis de não serem detectados durante os
 testes, permitindo que a equipe de QA foque mais nessas áreas.
@@ -93,16 +93,13 @@ RF001 - O sistema deve ser capaz de coletar informações vindas do Jira, utiliz
 APIs seguras e permitir a configuração de parâmetros de coleta, como
 projetos específicos e tipos de issues.
 
-RF002 - O sistema deve utilizar aprendizado de máquina supervisionado com o algoritmo Random Forest para classificar os motivos pelos quais bugs não foram detectados durante o fluxo de QA. A partir de dados históricos rotulados, a IA preverá os motivos de falhas em novos bugs. O modelo deve ser atualizável com novos dados de bugs e testes para aprimorar continuamente as classificações.
+RF002 - O sistema deve determinar os motivos pelos quais bugs não foram detectados durante o fluxo de QA.  
 
-RF003 - O sistema deve gerar relatório e Dashboard apresentando o resultado das análises
+RF003 - O sistema deve gerar Relatório e Dashboard apresentando o resultado das análises
 realizadas.
 
-RF004 - O sistema deve permitir exportar os relatórios no formato
+RF004 - O sistema deve permitir exportar o relatório no formato
 excel, apenas para consulta.
-
-RF005 - O sistema deve apresentar gráficos com informações dos motivos de Bugs sem
-detecção pelo fluxo de QA.
 
 
 # Requisitos não funcionais
@@ -116,8 +113,6 @@ segundos de espera.
 
 RNF003 - O sistema deve possuir uma interface fácil e ágil para coleta das
 informações.
-
-RNF004 - Deverá ter disponibilidade de no mínimo 20 horas por dia.
 
 RNF005 - O sistema deve garantir a integridade dos dados gerados a partir das issues
 do Jira, aplicando medidas de segurança para proteger os dados contra
