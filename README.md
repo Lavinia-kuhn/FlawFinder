@@ -1,6 +1,5 @@
 # PORTIFOLIO
 
-# Capa
 Título do Projeto: Flaw Finder
 
 Resumo: Uso de IA para a identificação dos motivos de não detecção de
