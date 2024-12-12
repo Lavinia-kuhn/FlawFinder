@@ -114,6 +114,6 @@ segundos de espera.
 RNF003 - O sistema deve possuir uma interface fácil e ágil para coleta das
 informações.
 
-RNF005 - O sistema deve garantir a integridade dos dados gerados a partir das issues
+RNF004 - O sistema deve garantir a integridade dos dados gerados a partir das issues
 do Jira, aplicando medidas de segurança para proteger os dados contra
 corrupção e garantir que sejam consistentemente sincronizados com o Jira.
